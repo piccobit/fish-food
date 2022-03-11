@@ -12,7 +12,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/tinned-fish/gofish/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "4d9956d19b0953d7a898100ccd8700c804e3ef17a51333b295b1c5374a1a4745",
+            sha256 = "fa2ba6f2c30be17afc148f0655a4e3da5c69d41c48b7d83c71073cb876ffa6e1",
             resources = {
                 {
                     path = name,
@@ -25,7 +25,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://github.com/tinned-fish/gofish/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "035a1dd53d97b402fc98cc0a7facf1a57874ffff707b5e521138670db9a6819a",
+            sha256 = "ddf565b16201f3cf3a5628c5789d2b99781b032b1820cd31ffcc0b20d2311b7d",
             resources = {
                 {
                     path = name,
@@ -38,7 +38,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/tinned-fish/gofish/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "7e02760432e0273420b61857c9ae4000525f7eeca5601f0f391316e09ad74e85",
+            sha256 = "ea9bbeff89f797444823e2333290c65cb51e6e378526ce200e91dd73c656c40c",
             resources = {
                 {
                     path = name,
@@ -51,7 +51,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://github.com/tinned-fish/gofish/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-arm64.tar.gz",
-            sha256 = "02488368c399c1adeb69f552ae466096b996b3dec9c5cee2fcf3cc5005fb6b86",
+            sha256 = "269747be76baf4c900febf153adaccfa9bdad793ff2c35cdfbbe86d04a38508b",
             resources = {
                 {
                     path = name,
@@ -64,7 +64,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/tinned-fish/gofish/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.zip",
-            sha256 = "2752a7c0eb093505ebf6adf19b8ce524fb0a9a774a175a3eab0161af4c72cce8",
+            sha256 = "86ad84576f115c53713ea47ac638af5487bc8c7b118f05899a976a0584458495",
             resources = {
                 {
                     path = name .. ".exe",
@@ -76,7 +76,7 @@ food = {
             os = "windows",
             arch = "arm64",
             url = "https://github.com/tinned-fish/gofish/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-arm64.zip",
-            sha256 = "440bde56aac22acfb7ede0859f292319b3ed8945f85fb3dd91fb7e3b977a9e73",
+            sha256 = "fd488d67e90d1b39e03cf1d838fa3b63ef52dcf5fb901d8f5a1cd7e31fba848f",
             resources = {
                 {
                     path = name .. ".exe",
