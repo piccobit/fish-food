@@ -22,6 +22,19 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin_arm64.zip",
+            sha256 = "2571b4d381f1fc691e7603bbc8113a67116da2404751ebb844818d512dd62b4b",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/junegunn/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux_amd64.tar.gz",
