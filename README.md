@@ -4,7 +4,7 @@ Core fish food for GoFish.
 
 # How do I add my installable thingy to GoFish?
 
-See https://gofi.sh/#cookbook for further information on adding your own fish food to GoFish.
+See the [cookbook](https://gofish.dev/#cookbook) for further information on adding your own fish food to GoFish.
 
 # Original author
 
