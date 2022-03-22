@@ -1,5 +1,7 @@
 local name = "ejson"
-local version = "1.3.0"
+local version = "1.3.2"
+local org = "Shopify"
+local repo = "ejson"
 
 food = {
     name = name,
@@ -10,9 +12,9 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/Shopify/ejson/releases/download/v" .. version .. "/darwin-amd64",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/darwin-amd64",
             -- shasum of the release archive
-            sha256 = "ea9a00b002a03a964086c9c9b053523852028ac4644d5f6e299ea7273cfef020",
+            sha256 = "676e8e27ab67c5133d75a5f0027bbc056073a17a6589cc0bd15f54c9e01a6003",
             resources = {
                 {
                     path = "darwin-amd64", 
@@ -24,9 +26,9 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/Shopify/ejson/releases/download/v" .. version .. "/linux-amd64",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/linux-amd64",
             -- shasum of the release archive
-            sha256 = "5329e8f22d1665d7e379d5f30c1fe8be7538174b0d59daea4b2dc19c1a267735",
+            sha256 = "777b5bec45ba569c16b5a90c5e05c924794b74b8603b2148556f361745cfa58b",
             resources = {
                 {
                     path = "linux-amd64",
@@ -38,8 +40,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/Shopify/ejson/releases/download/v" .. version .. "/windows-amd64.exe",
-            sha256 = "91baa5b9a688361884da21df5656c859240a14de78c8e2203ee867a40ccbbac3",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/windows-amd64.exe",
+            sha256 = "16cbf0d49e0b7eb3833818abe60489acf2fcd502c7e76c0d2b5d75486bf901ab",
             resources = {
                 {
                     path = "windows-amd64.exe",
