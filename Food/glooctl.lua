@@ -1,7 +1,7 @@
 local name = "glooctl"
 local version = "0.3.0"
 local org = "solo-io"
-local repo = "gloo"
+local repo = "glooctl"
 
 food = {
     name = name,
