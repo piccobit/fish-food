@@ -1,6 +1,6 @@
 local name = "chart-testing"
 local bin = "ct"
-local version = "3.5.0"
+local version = "3.5.1"
 
 food = {
     name = name,
@@ -13,7 +13,20 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "568a73220113a9adfaa0b4669be99b2f873dcd0eabd9d4c68899525cb8ae01d8",
+            sha256 = "2e9de5e8a2c5de454eb795dfb2302d6f654d2831586bb20862cec701a655ef65",
+            resources = {
+                {
+                    path = bin,
+                    installpath = "bin/" .. bin,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
+            sha256 = "59bea8ebe840296b52f6916d5bcac8383fb7d77c6a92b1f4276b45ef669f46a5",
             resources = {
                 {
                     path = bin,
@@ -26,7 +39,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "fdfe8bdf21b336ba99984520baa7e432e9c7b0769729d1da581959a5ecdc72e1",
+            sha256 = "e93cb800041cfb53137e5ad66a0b4e7da55a5aa4f2a6a95e1fd18cb8d6686dd8",
             resources = {
                 {
                     path = bin,
@@ -39,7 +52,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "42978ea8df853ebc072000ab428505e77efd704849d016becabd1b86790ea9dc",
+            sha256 = "822403c2d2585ba3abf4be2a5dd7fbb018f76b4c52b09bc711528984e20bfb82",
             resources = {
                 {
                     path = bin .. ".exe",

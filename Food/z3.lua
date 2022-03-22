@@ -1,5 +1,5 @@
 local name = "z3"
-local version = "4.8.8"
+local version = "4.8.15"
 
 food = {
     name = name,
@@ -10,11 +10,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-osx-10.14.6.zip",
-            sha256 = "01386e9aeb65a5d5a886f7ff23fff00dd963036afdff26c5a224ef5b63cb22c8",
+            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-osx-10.16.zip",
+            sha256 = "289497b5d6f74dd4a2f07895bf4384b071e88e347f411800b2c4669b621c969d",
             resources = {
                 {
-                    path = name .. "-" .. version .. "-x64-osx-10.14.6/bin/" .. name,
+                    path = name .. "-" .. version .. "-x64-osx-10.16/bin/" .. name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -23,11 +23,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-ubuntu-16.04.zip",
-            sha256 = "6534f26427ee4f02835d17c3472f5ce750f34b4898c35cdd4223459b3589664e",
+            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-glibc-2.31.zip",
+            sha256 = "6328a206a086ea91abcfa086e800afd6fdc832450d610b3bd0e4245b6681292c",
             resources = {
                 {
-                    path = name .. "-" .. version .. "-x64-ubuntu-16.04/bin/" .. name,
+                    path = name .. "-" .. version .. "-x64-glibc-2.31/bin/" .. name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -37,7 +37,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-win.zip",
-            sha256 = "3e203aee5fd46afc40211d0cde0a2160ee969012d1c9a62d44324bad6f05d284",
+            sha256 = "64233cc73e152b7de0ddec9179089f3f61a0f38ca1dbb390f1de2f97322f781a",
             resources = {
                 {
                     path = name .. "-" .. version .. "-x64-win\\bin\\" .. name .. ".exe",
@@ -49,7 +49,7 @@ food = {
             os = "windows",
             arch = "386",
             url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x86-win.zip",
-            sha256 = "47463d832fd4e66f4bcd0b0ab86d7082d4fb28429a5b00063fcfcdebe1f9c451",
+            sha256 = "6e03409e0e3045e4ee670ec0e1ea614bd551b054329ce17ac1b703880b4ea478",
             resources = {
                 {
                     path = name .. "-" .. version .. "-x86-win\\bin\\" .. name .. ".exe",

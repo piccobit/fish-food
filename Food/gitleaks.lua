@@ -1,6 +1,6 @@
 local name = "gitleaks"
-local release = "v8.3.0"
-local version = "8.3.0"
+local version = "8.5.0"
+local release = "v" .. version
 food = {
     name = name,
     description = "Scan git repos (or files) for secrets using regex and entropy 🔑",

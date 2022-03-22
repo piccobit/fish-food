@@ -1,5 +1,5 @@
 local name = "eksctl"
-local version = "0.86.0"
+local version = "0.88.0"
 
 food = {
     name = name,
@@ -11,7 +11,20 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://github.com/weaveworks/eksctl/releases/download/v" .. version .. "/" .. name .. "_Darwin_amd64.tar.gz",
-            sha256 = "bb67d6f41489764456fa69f11afd33687a66c2be9ffa09e18151204f1566922f",
+            sha256 = "fa95e9f1d2dece5901fe20c169ce97d168d019f52c4dba6c224e071889f6913a",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/weaveworks/eksctl/releases/download/v" .. version .. "/" .. name .. "_Darwin_arm64.tar.gz",
+            sha256 = "0a984c59923a43068337b9ed889d5a56b6b1cb005c88fe28685248676f760388",
             resources = {
                 {
                     path = name,
@@ -24,7 +37,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://github.com/weaveworks/eksctl/releases/download/v" .. version .. "/" .. name .. "_Linux_amd64.tar.gz",
-            sha256 = "bcc25170ffcf09965f20e3af66c4b0213a2c5fad047f7c0a6a7d1626c224311a",
+            sha256 = "e1bde7222d5e6c6bef11a4f3dee7edca193fe212d095beb1024c83b9952aaebb",
             resources = {
                 {
                     path = name,
@@ -37,7 +50,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://github.com/weaveworks/eksctl/releases/download/v" .. version .. "/" .. name .. "_Windows_amd64.zip",
-            sha256 = "c400c3506b2fb36a546d9645b0f98dc1159cfc1fd8a3e01bf3aef3003e6214a9",
+            sha256 = "91a37aefd7190ca4b90b3f644551b19fbf03b454a6a87a5504f9fb751a770bc9",
             resources = {
                 {
                     path = name .. ".exe",

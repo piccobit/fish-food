@@ -1,7 +1,8 @@
 local name = "linkerd"
 local version = "2.9.2"
 local release = "stable-" .. version
-local repository = "linkerd/linkerd2"
+local org = "linkerd"
+local repo = "linkerd2"
 
 food = {
     name = name,
@@ -13,7 +14,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-darwin",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-darwin",
             sha256 = "625d46eef585a6ee8ffb6c0fd1a68d71a039238a48ae2c36dac6a2a72b9a5e6e",
             resources = {
                 {
@@ -26,7 +27,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-linux-amd64",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-linux-amd64",
             sha256 = "67e51106600fe48315659e9e3261efd0169e6bb229ceb8d96af0eabd159624ef",
             resources = {
                 {
@@ -39,7 +40,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. repository .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-windows.exe",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/linkerd2-cli" .. "-" .. release .. "-windows.exe",
             sha256 = "895e4075d15b6cbe3b0f4c76b8ab06aa63ed5ecd01220bca908b67575398d742",
             resources = {
                 {

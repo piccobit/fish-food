@@ -1,6 +1,8 @@
 local name = "cilium"
-local version = "0.10.0"
+local version = "0.10.4"
 local release = "v" .. version
+local org = "cilium"
+local repo = "cilium-cli"
 
 food = {
     name = name,
@@ -12,8 +14,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/cilium/cilium-cli/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "eeb4cf81062e0d6297188b6fc0cd4b670fe5c5e46ed3f96fed11b315d5beee19",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
+            sha256 = "02f12472945d97f8114557ad1f0bbb0ee267c24baf9f6b39d464fdfb3ec4e076",
             resources = {
                 {
                     path = name,
@@ -25,8 +27,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/cilium/cilium-cli/releases/download/" .. release .. "/" .. name .. "-darwin-arm64.tar.gz",
-            sha256 = "834650f86339df655af4fc454c9c698472ec116e30b8afb7efb7afd634d9b489",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-darwin-arm64.tar.gz",
+            sha256 = "dee1ecbca70b53c420a12f154260d264e4a0cd0b711e6832d58aa3dbb779ea9c",
             resources = {
                 {
                     path = name,
@@ -38,8 +40,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/cilium/cilium-cli/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "2a309542dc9504d3ee3583617fef98e5cb24cdb5e8578a52fa6584932bb2c46c",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
+            sha256 = "8681d274933f2d46ea64773b4f45a248d6c25d7acaf9e4e15fd504e640dd7658",
             resources = {
                 {
                     path = name,
@@ -51,8 +53,8 @@ food = {
         {
             os = "linux",
             arch = "arm64",
-            url = "https://github.com/cilium/cilium-cli/releases/download/" .. release .. "/" .. name .. "-linux-arm64.tar.gz",
-            sha256 = "385c440d7bc549c7c3e3beee029591c80dc2aea799251f48fbe8eec3ef1e8e94",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-linux-arm64.tar.gz",
+            sha256 = "acb874d1acea1643cb832ec285889addddc8a03c39684e76614bd631681b0650",
             resources = {
                 {
                     path = name,
@@ -64,8 +66,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/cilium/cilium-cli/releases/download/" .. release .. "/" .. name .. "-windows-amd64.tar.gz",
-            sha256 = "b52bdc026be19abc034d10b6550062276902255cb21a7451780a912f1738f813",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.tar.gz",
+            sha256 = "34c79aa8acb1d634d69ff0578fad7dcb103137e2167b50a967876405f7707dcc",
             resources = {
                 {
                     path = name .. ".exe",
