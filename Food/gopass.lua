@@ -1,5 +1,7 @@
 local name = "gopass"
-local version = "1.13.1"
+local version = "1.14.0"
+local org = "gopasspw"
+local repo = "gopass"
 
 food = {
     name = name,
@@ -11,8 +13,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/gopasspw/gopass/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "bfb7ade7aecf152d9f4ed76e34e25705577f99b5f7d179690837c34a43a29760",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
+            sha256 = "af311cdd8ec79bd32925b13c2510c41332e1bb7a56355f0ea17d54def2f2f5be",
             resources = {
                 {
                     path = name,
@@ -24,8 +26,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/gopasspw/gopass/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "96b307e47f5563a639db3fe8405fd799da7702478b7822142145a4e0625c7ef5",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-arm64.tar.gz",
+            sha256 = "5904b84c2f79c2e303a0d785439f8b067795dbff35336e512ac779f3bd07e825",
             resources = {
                 {
                     path = name,
@@ -37,8 +39,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/gopasspw/gopass/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "f70ed8ea1c2a57d63b2f258c4f33295c9903db1e9f2716dd6fba872b3f689482",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
+            sha256 = "377b38180dbd1ae8dd698659df577235dea1f04fae2e8fb3044a6c24b69c240d",
             resources = {
                 {
                     path = name,
@@ -50,8 +52,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/gopasspw/gopass/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.zip",
-            sha256 = "179f8e01c620a50baec3afbdbb3fd14fca3f8e1cca832eb99c8edbce8f5cebbe",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.zip",
+            sha256 = "07b8c9d11004da46b3482a8f1e64dcaef6e57824a250f2d1dbd803a0c0e3e884",
             resources = {
                 {
                     path = name .. ".exe",
