@@ -33,7 +33,7 @@ for f in Food/*.lua; do
             fi
 
             if [[ ${old_version} != ${version} ]]; then
-                echo "INFO: ${name}, ${old_version}, ${host}, ${org}, ${old_version}, ${version}"
+                echo "INFO: ${name}, ${host}, ${org}, ${old_version}, ${version}"
             fi
         else
             echo "ERROR: ${curl_errcode} - Could not get current version for ' ${org_repo}': ${version}"
