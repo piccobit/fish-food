@@ -1,7 +1,9 @@
 local name = "kubeseal"
+local version = "0.17.3"
+local release = "v" .. version
 local org = "bitnami-labs"
-local release = "v0.16.0"
-local version = "0.16.0"
+local repo = "sealed-secrets"
+
 food = {
     name = name,
     description = "A Kubernetes controller and tool for one-way encrypted Secrets",
@@ -12,11 +14,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "4d5af83d88395a8b307dcc43eb006123e90ae1fb955bbc9ab7d7b0281805269e",
+            url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
+            sha256 = "5fb7c74ab32f3d51fe93d455617c4e0b3391b2f5a8a87faa9230d9af1627d84a",
             resources = {
                 {
-                    path = name .. "-darwin-amd64",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -25,11 +27,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "0899c583053a7c242359985545d9c5c76899fb965dd9d1c46cbcc8b4dd2071ed",
+            url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
+            sha256 = "5270b926c5689ba1587cdc8ea8dcc1283fc3c5863d663f5fe2b31372ed60c19e",
             resources = {
                 {
-                    path = name .. "-linux-amd64",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -38,8 +40,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. ".exe",
-            sha256 = "0fb3ff9552530524ee7eae04161cba089a68ec2b0b25d9f43b1c1024452017aa",
+            url = "https://github.com/bitnami-labs/sealed-secrets/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows-amd64.tar.gz",
+            sha256 = "ea47eea876494cc115215f606b725a5027456402963407b7611ec56b9538aa68",
             resources = {
                 {
                     path = name .. ".exe",
