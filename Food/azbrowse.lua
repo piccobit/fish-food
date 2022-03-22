@@ -1,5 +1,5 @@
 local name = "azbrowse"
-local version = "2.1.540"
+local version = "2.1.563"
 local repo = "lawrencegripper"
 
 food = {
@@ -13,7 +13,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "27372d20f5c247cfc477095f6cbb6bfa56ab7aa012ba1d5cce790903e6aedcef",
+            sha256 = "0d55faaa4e5f38ba3cb65738bfa752ad3c63dacf5aac6dfe86d4a2eab68eaaa1",
             resources = {
                 {
                     path = name,
@@ -27,7 +27,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "ada2aa4956331a784b43d393efa792a78e2b1d4b51cb039fbbaf96d6cc571b8f",
+            sha256 = "5e3f19892d9ea73079c259f45f837cdb8dbc68fcdf70c2d91d94b0f98a6dd038",
             resources = {
                 {
                     path = name,
@@ -41,7 +41,7 @@ food = {
             arch = "amd64",
             url = "https://github.com/" .. repo .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.zip",
             -- shasum of the release archive
-            sha256 = "fcc20d57a07276902454fb711e86a4f5e588b6fa854cc59011b709ebbddb5160",
+            sha256 = "ab7e2d33e7ce94719b5b96b3dd3219645187dffef9dbafa1de98c73d7667c08c",
             resources = {
                 {
                     path = name .. ".exe",
