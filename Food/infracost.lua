@@ -1,6 +1,7 @@
 local name = "infracost"
-local version = "0.9.19"
+local version = "0.9.20"
 local org = "infracost"
+local repo = name
 
 food = {
     name = name,
@@ -12,8 +13,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "d7c7b62750a61d2809b08dc19302263f9c7761e614b1f1e0c2a54d5f20cb4f85",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
+            sha256 = "70368963eb41adeed7aa13e571e544d6e803d7a550afa40b25c72039b2e0fe9a",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -23,10 +24,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64.tar.gz",
+            sha256 = "93111312e860e1f351920efcd9159fd44ae339375d3b914f3337b403e5c6510f",
+            resources = {
+                {
+                    path = name .. "-darwin-arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "76ef8cb9b5d8cc2630193e435cdb470decf99c66a676dfe80593a133ce1d1116",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
+            sha256 = "1a42d9abd469a39eb43b8e49166ecf6a97ff0ba9df532a08b3bf3435d816cbb2",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -38,8 +52,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.tar.gz",
-            sha256 = "e2522f320921e594f2953535e62564e770fe5b2ba11beb8bd20d3fa115db5d37",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.tar.gz",
+            sha256 = "b4b6635839be8b8250107f0e89ee0d812bd6fd1439902309c4d0c2e8f327046a",
             resources = {
                 {
                     path = name .. ".exe",

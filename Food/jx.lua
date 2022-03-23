@@ -1,5 +1,7 @@
 local name = "jx"
-local version = "3.2.259"
+local version = "3.2.267"
+local org = "jenkins-x"
+local repo = name
 
 food = {
     name = name,
@@ -11,8 +13,21 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/jenkins-x/jx/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "28f697397927d08569c5cc8ce54748c632415f36c4b340d5c32ac99213426e88",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
+            sha256 = "391447350e28573c81f2073230bb85ed6b2ee82bdc812cb9c7e7d4e81615ea11",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64.tar.gz",
+            sha256 = "620ba4f75f028ac1e5ae895aac9c26f6f747020be73abb4f8f723af3ab863e09",
             resources = {
                 {
                     path = name,
@@ -24,8 +39,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/jenkins-x/jx/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "d83edd0df60384a131a7ad84fa4f611f5573789fd9c1220539b25e4e9c01270f",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
+            sha256 = "1ed283e1b2367302ddd935a91d8d367cd02c5f9251ebe293c881536a0127e3ee",
             resources = {
                 {
                     path = name,
@@ -37,8 +52,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/jenkins-x/jx/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.zip",
-            sha256 = "256576945c3064a85d706850c89b1912d95b69605ead5e3cb2e5d1f082306291",
+            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.zip",
+            sha256 = "c6487949e48cf71b77432c8c348d5aa9c6bb6976e32d32a0641d0e0ec2d80a6f",
             resources = {
                 {
                     path = name .. ".exe",
