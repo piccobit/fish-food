@@ -1,3 +1,4 @@
+-- type = hashicorp -- DO NOT REMOVE THIS LINE!
 local name = "packer"
 local version = "1.8.0"
 

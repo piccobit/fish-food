@@ -1,3 +1,4 @@
+-- type = hashicorp -- DO NOT REMOVE THIS LINE!
 local name = "nomad"
 local version = "0.10.5"
 

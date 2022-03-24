@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "octant"
 local version = "0.25.1"
-local org = ""
-local repo = name
+local org = "vmware-tanzu"
+local repo = "octant"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
             -- shasum of the release archive
             sha256 = "97b1510362d99c24eeef98b61ca327e6e5323c99a1c774bc8e60751d3c923b33",
             resources = {
@@ -27,7 +29,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz", 
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz", 
             -- shasum of the release archive
             sha256 = "b12bb6752e43f4e0fe54278df8e98dee3439c4066f66cdb7a0ca4a1c7d8eaa1e",
             resources = {
@@ -41,7 +43,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/vmware-tanzu/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
             -- shasum of the release archive
             sha256 = "b1e8f372f64c79ff04d69d19f11773936b67447a3abd5a496fbdfef10b6b6d19",
             resources = {

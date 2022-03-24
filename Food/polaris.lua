@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "polaris"
 local version = "5.0.0"
-local org = ""
-local repo = name
+local org = "FairwindsOps"
+local repo = "polaris"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/FairwindsOps/polaris/releases/download/" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
             sha256 = "15c55369254a21ea0d949001bb36e84cda4e6e470c10a69d3de6379923d05615",
             resources = {
                 {
@@ -26,7 +28,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/FairwindsOps/polaris/releases/download/" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
             sha256 = "13745790e63c2a51371449184a620aed3a09ddde9753c6923b79c054829b5911",
             resources = {
                 {

@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "pandoc"
 local version = "2.16.2"
-local org = ""
-local repo = name
+local org = "jqm"
+local repo = "pandoc"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/jgm/pandoc/releases/download/" .. version .. "/" .. name.. "-" .. version .."-macOS.zip",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name.. "-" .. version .."-macOS.zip",
             sha256 = "7e6b694f7402b979130ba1a7f80cee28a745b186bf9ac40058f4338398677605",
             resources = {
                 {
@@ -26,7 +28,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/jgm/pandoc/releases/download/" .. version .. "/" .. name.. "-" .. version .."-linux-amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name.. "-" .. version .."-linux-amd64.tar.gz",
             sha256 = "f053aa621130383c9166db3a3a09fa5de95090e165711011607f84b285609bd1",
             resources = {
                 {
@@ -39,7 +41,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/jgm/pandoc/releases/download/" .. version .. "/" .. name.. "-" .. version .."-windows-x86_64.zip",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name.. "-" .. version .."-windows-x86_64.zip",
             sha256 = "a01bfd0fb702c4fc3de2e829fac2c6964afdb2bc285f57dce4ec00945069eff7",
             resources = {
                 {
