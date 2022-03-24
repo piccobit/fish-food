@@ -1,6 +1,8 @@
 local name = "ctop"
 local release = "0.7.7"
 local version = "0.7.7"
+local org = ""
+local repo = name
 
 food = {
     name = name,

@@ -1,5 +1,7 @@
 local name = "z3"
 local version = "4.8.15"
+local org = ""
+local repo = name
 
 food = {
     name = name,

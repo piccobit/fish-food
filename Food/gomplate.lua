@@ -1,5 +1,7 @@
 local name = "gomplate"
 local version = "3.10.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

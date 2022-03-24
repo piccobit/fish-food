@@ -1,5 +1,7 @@
 local name = "hugo-extended"
 local version = "0.89.3"
+local org = ""
+local repo = name
 
 food = {
     name = name,

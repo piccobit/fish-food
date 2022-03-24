@@ -1,5 +1,7 @@
 local name = "berglas"
 local version = "0.6.2"
+local org = ""
+local repo = name
 
 food = {
     name = name,

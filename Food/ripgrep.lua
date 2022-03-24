@@ -1,6 +1,8 @@
 local name = "ripgrep"
 local bin = "rg"
 local version = "13.0.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

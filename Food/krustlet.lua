@@ -2,6 +2,8 @@ local name = "krustlet"
 local version = "0.7.0"
 local release = "v" .. version
 local wasi = name .. "-wasi"
+local org = ""
+local repo = name
 
 food = {
     name = name,

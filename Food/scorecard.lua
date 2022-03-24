@@ -1,6 +1,8 @@
 local name = "scorecard"
 local release = "v3.1.1"
 local version = "3.1.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,

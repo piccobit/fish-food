@@ -1,6 +1,8 @@
 local name = "direnv"
 local version = "2.30.3"
 local release = "v" .. version
+local org = ""
+local repo = name
 
 food = {
     name = name,

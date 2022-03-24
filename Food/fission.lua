@@ -1,6 +1,8 @@
 local name = "fission"
 local version = "1.15.1"
 local githubReleaseDownloadURL = "https://github.com/fission/fission/releases/download"
+local org = ""
+local repo = name
 
 food = {
     name = name,

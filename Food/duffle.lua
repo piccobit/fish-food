@@ -1,5 +1,7 @@
 local name = "duffle"
 local version = "0.3.5-beta.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,

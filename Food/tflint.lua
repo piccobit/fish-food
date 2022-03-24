@@ -1,5 +1,7 @@
 local name = "tflint"
 local version = "0.34.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,

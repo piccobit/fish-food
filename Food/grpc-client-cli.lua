@@ -1,5 +1,7 @@
 local name = "grpc-client-cli"
 local version = "1.12.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

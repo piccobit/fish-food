@@ -1,5 +1,7 @@
 local name = "polaris"
 local version = "5.0.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

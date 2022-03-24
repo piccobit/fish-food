@@ -1,5 +1,7 @@
 local name = "pandoc"
 local version = "2.16.2"
+local org = ""
+local repo = name
 
 food = {
     name = name,

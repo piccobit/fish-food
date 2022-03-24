@@ -2,6 +2,8 @@ local name = "wasm-to-oci"
 local version = "0.1.2"
 local release = "v" .. version
 local githubReleaseDownloadURL = "https://github.com/engineerd/wasm-to-oci/releases/download"
+local org = ""
+local repo = name
 
 food = {
     name = name,

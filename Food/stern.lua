@@ -1,5 +1,7 @@
 local name = "stern"
 local version = "1.11.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

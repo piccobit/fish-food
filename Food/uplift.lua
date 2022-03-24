@@ -1,5 +1,7 @@
 local name = "uplift"
 local version = "2.1.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,
@@ -47,4 +49,3 @@ food = {
             }
         }
     }
-}

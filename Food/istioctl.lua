@@ -1,5 +1,7 @@
 local name = "istioctl"
 local version = "1.13.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,

@@ -1,5 +1,7 @@
 local name = "sops"
 local version = "3.7.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,
@@ -49,4 +51,3 @@ food = {
             }
         }
     }
-}

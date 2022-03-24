@@ -1,5 +1,7 @@
 local name = "glide"
 local version = "0.13.3"
+local org = ""
+local repo = name
 
 food = {
     name = name,

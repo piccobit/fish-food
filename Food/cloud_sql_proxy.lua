@@ -1,5 +1,7 @@
 local name = "cloud_sql_proxy"
 local version = "1.29.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,
@@ -74,4 +76,6 @@ food = {
         }
     }
 }
+local org = ""
+local repo = name
 

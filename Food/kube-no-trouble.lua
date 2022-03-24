@@ -1,9 +1,13 @@
 local name = "kube-no-trouble"
 local release = "0.5.1"
 local version = "0.5.1"
+local org = ""
+local repo = name
 
 -- Executable name is actually "kubent" (vs. "kube-no-trouble")
 local exe = "kubent"
+local org = ""
+local repo = name
 
 food = {
     name = name,

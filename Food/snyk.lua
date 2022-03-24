@@ -1,5 +1,7 @@
 local name = "snyk"
 local version = "1.744.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

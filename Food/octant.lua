@@ -1,5 +1,7 @@
 local name = "octant"
 local version = "0.25.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,

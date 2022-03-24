@@ -1,5 +1,7 @@
 local name = "kubeconform"
 local version = "0.4.13"
+local org = ""
+local repo = name
 
 food = {
     name = name,

@@ -2,6 +2,7 @@ local name = "arkade"
 local version = "0.8.14"
 local org = "alexellis"
 local repo = name
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +14,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. version .. "/" .. name .. "-darwin",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-darwin",
             sha256 = "e71bdd3cdc961d04245c41e2fb9dfb09826b1a1e4132198c2f18e715108c906c",
             resources = {
                 {
@@ -26,7 +27,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. version .. "/" .. name,
+            url = base_url .. "/releases/download/" .. version .. "/" .. name,
             sha256 = "706d3374d657059d44226a8099924c74e5c3ac6810561ddb025e83e5aee12a95",
             resources = {
                 {
@@ -39,7 +40,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. version .. "/" .. name .. ".exe",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. ".exe",
             sha256 = "adbe1e57d55abfae6f3b4d40cf9aafb63da72efe8517be90753e3b862c203138",
             resources = {
                 {

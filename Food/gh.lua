@@ -1,5 +1,7 @@
 local name = "gh"
 local version = "2.5.2"
+local org = ""
+local repo = name
 
 food = {
     name = name,
@@ -50,4 +52,6 @@ food = {
         }
     }
 }
+local org = ""
+local repo = name
 

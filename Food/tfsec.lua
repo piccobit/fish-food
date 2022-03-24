@@ -1,6 +1,8 @@
 local name = "tfsec"
 local release = "v1.6.2"
 local version = "1.6.2"
+local org = ""
+local repo = name
 
 food = {
     name = name,

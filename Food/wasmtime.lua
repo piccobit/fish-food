@@ -1,5 +1,7 @@
 local name = "wasmtime"
 local version = "0.34.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

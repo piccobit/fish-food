@@ -1,5 +1,7 @@
 local name = "spruce"
 local version = "1.29.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

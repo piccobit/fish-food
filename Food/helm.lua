@@ -1,5 +1,7 @@
 local name = "helm"
 local version = "3.8.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

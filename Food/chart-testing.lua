@@ -1,6 +1,9 @@
 local name = "chart-testing"
 local bin = "ct"
 local version = "3.5.1"
+local org = "helm"
+local repo = name
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -12,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
             sha256 = "2e9de5e8a2c5de454eb795dfb2302d6f654d2831586bb20862cec701a655ef65",
             resources = {
                 {
@@ -25,7 +28,7 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
             sha256 = "59bea8ebe840296b52f6916d5bcac8383fb7d77c6a92b1f4276b45ef669f46a5",
             resources = {
                 {
@@ -38,7 +41,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
             sha256 = "e93cb800041cfb53137e5ad66a0b4e7da55a5aa4f2a6a95e1fd18cb8d6686dd8",
             resources = {
                 {
@@ -51,7 +54,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/helm/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
             sha256 = "822403c2d2585ba3abf4be2a5dd7fbb018f76b4c52b09bc711528984e20bfb82",
             resources = {
                 {

@@ -1,5 +1,7 @@
 local name = "cosign"
 local version = "1.6.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

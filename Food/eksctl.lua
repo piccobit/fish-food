@@ -1,5 +1,7 @@
 local name = "eksctl"
 local version = "0.88.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

@@ -1,6 +1,8 @@
 local name = "git-remote-codecommit"
 local version = "1.0.1"
 local release = "v" .. version
+local org = ""
+local repo = name
 
 food = {
     name = name,

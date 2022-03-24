@@ -1,5 +1,7 @@
 local name = "yaegi"
 local version = "0.11.2"
+local org = ""
+local repo = name
 
 food = {
     name = name,

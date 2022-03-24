@@ -1,6 +1,8 @@
 local name = "skaffold"
 local version = "1.36.0"
 local release = "v" .. version
+local org = ""
+local repo = name
 
 food = {
     name = name,

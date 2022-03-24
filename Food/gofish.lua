@@ -1,5 +1,7 @@
 local name = "gofish"
 local version = "0.18.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,

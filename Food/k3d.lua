@@ -1,6 +1,8 @@
 local name = "k3d"
 local version = "5.3.0"
 local release = "v" .. version
+local org = ""
+local repo = name
 
 food = {
     name = name,

@@ -1,6 +1,8 @@
 local name = "k9s"
 local version = "0.25.18"
 local release = "v" .. version
+local org = ""
+local repo = name
 
 food = {
     name = name,

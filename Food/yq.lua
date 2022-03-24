@@ -1,5 +1,7 @@
 local name = "yq"
 local version = "4.21.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,

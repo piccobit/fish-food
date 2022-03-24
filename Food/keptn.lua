@@ -1,5 +1,7 @@
 local name = "keptn"
 local version = "0.9.2"
+local org = ""
+local repo = name
 
 food = {
     name = name,

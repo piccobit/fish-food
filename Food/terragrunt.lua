@@ -1,6 +1,8 @@
 local name = "terragrunt"
 local release = "v0.36.3"
 local version = "0.36.3"
+local org = ""
+local repo = name
 
 food = {
     name = name,

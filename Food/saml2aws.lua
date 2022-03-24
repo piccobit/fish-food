@@ -1,6 +1,8 @@
 local name = "saml2aws"
 local version = "2.34.0"
 local release = "v" .. version
+local org = ""
+local repo = name
 
 food = {
     name = name,

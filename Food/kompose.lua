@@ -1,5 +1,7 @@
 local name = "kompose"
 local version = "1.26.1"
+local org = ""
+local repo = name
 
 food = {
     name = name,

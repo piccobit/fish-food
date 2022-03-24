@@ -1,5 +1,7 @@
 local name = "subo"
 local version = "0.2.2"
+local org = ""
+local repo = name
 
 food = {
     name = name,

@@ -1,6 +1,8 @@
 local name = "jwt-cli"
 local version = "5.0.2"
 local exe = "jwt"
+local org = ""
+local repo = name
 
 food = {
     name = name,

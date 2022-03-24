@@ -1,5 +1,7 @@
 local name = "k0sctl"
 local version = "0.12.6"
+local org = ""
+local repo = name
 
 food = {
     name = name,

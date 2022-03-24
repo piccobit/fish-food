@@ -1,5 +1,7 @@
 local name = "kubeaudit"
 local version = "0.16.0"
+local org = ""
+local repo = name
 
 food = {
     name = name,
