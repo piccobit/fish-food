@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "act"
 local version = "0.2.25"
 local org = "nektos"

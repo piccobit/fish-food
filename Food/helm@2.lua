@@ -1,3 +1,4 @@
+-- type = helm -- DO NOT REMOVE THIS LINE!
 local name = "helm@2"
 local version = "2.17.0"
 local org = ""

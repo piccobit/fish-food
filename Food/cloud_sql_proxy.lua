@@ -1,3 +1,4 @@
+-- type = googleapis -- DO NOT REMOVE THIS LINE!
 local name = "cloud_sql_proxy"
 local version = "1.29.0"
 local org = ""

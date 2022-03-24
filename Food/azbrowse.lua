@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "azbrowse"
 local version = "2.1.563"
 local org = "lawrencegripper"

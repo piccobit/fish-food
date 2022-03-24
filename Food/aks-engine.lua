@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "aks-engine"
 local version = "0.69.0"
 local org = "Azure"

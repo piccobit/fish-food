@@ -1,3 +1,4 @@
+-- type = google -- DO NOT REMOVE THIS LINE!
 local name = "go"
 local release = "1.18"
 local version = release

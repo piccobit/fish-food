@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "clusterctl"
 local version = "1.1.2"
 local release = "v" .. version

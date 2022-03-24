@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "argocd"
 local version = "2.3.1"
 local org = "argoproj"

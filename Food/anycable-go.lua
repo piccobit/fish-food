@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "anycable-go"
 local version = "1.2.0"
 local org = "anycable"

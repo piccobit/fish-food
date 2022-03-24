@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "age"
 local version = "1.0.0"
 local org = "FiloSottile"

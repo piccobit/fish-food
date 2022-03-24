@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "buffalo"
 local version = "0.18.3"
 local release = "v" .. version

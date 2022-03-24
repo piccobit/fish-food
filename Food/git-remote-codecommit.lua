@@ -1,8 +1,10 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "git-remote-codecommit"
 local version = "1.0.1"
 local release = "v" .. version
-local org = ""
+local org = "gembaadvantage"
 local repo = name
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -14,7 +16,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_darwin-x86_64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_darwin-x86_64.tar.gz",
             sha256 = "b7a0f979c13f3b05bcf6f57d80a9e8683c31d9834b703aa9f3f1b45c33b0e814",
             resources = {
                 {
@@ -27,7 +29,7 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/gembaadvantage/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_darwin-arm64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_darwin-arm64.tar.gz",
             sha256 = "b54201429a468ca425158ae81fbd42b9fd2a732211b33f93e2c9891a07b26a65",
             resources = {
                 {
@@ -40,7 +42,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_linux-x86_64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_linux-x86_64.tar.gz",
             sha256 = "f9025ca5e94c487949791f967f7887393c4d2cd497bc4c4f692310ba75945262",
             resources = {
                 {
@@ -53,7 +55,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/gembaadvantage/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_windows-x86_64.zip",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. release .. "_windows-x86_64.zip",
             sha256 = "3316e6ae8f36b749f04ea17f917e5195599d40d3b369b3c9e8bd32976a281c2d",
             resources = {
                 {

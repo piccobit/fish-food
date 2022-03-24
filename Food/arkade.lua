@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "arkade"
 local version = "0.8.14"
 local org = "alexellis"

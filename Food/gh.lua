@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "gh"
 local version = "2.5.2"
-local org = ""
-local repo = name
+local org = "cli"
+local repo = "cli"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -12,7 +14,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/cli/cli/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS_amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS_amd64.tar.gz",
             -- shasum of the release archive
             sha256 = "1e4c9d584f56aeef62d22234db177bf3494985ae02c0499abf790f44a269f060",
             resources = {
@@ -26,7 +28,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/cli/cli/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
             sha256 = "30629f88c1a142cb325a4f706eec812aca771f1fae21e9818057e8735883d89d",
             resources = {
@@ -40,7 +42,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/cli/cli/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
             -- shasum of the release archive
             sha256 = "5a7d09e468f90ef260552f9bea03739586f468912b077a161002e74dc4c12375",
             resources = {
@@ -52,6 +54,4 @@ food = {
         }
     }
 }
-local org = ""
-local repo = name
 

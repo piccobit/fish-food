@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "cilium"
 local version = "0.10.4"
 local release = "v" .. version

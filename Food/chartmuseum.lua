@@ -1,3 +1,4 @@
+-- type = helm -- DO NOT REMOVE THIS LINE!
 local name = "chartmuseum"
 local version = "0.14.0"
 local org = ""

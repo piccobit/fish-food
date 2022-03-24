@@ -1,8 +1,10 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "flux"
 local version = "0.27.4"
 local release = "v" .. version
 local org = "fluxcd"
 local repo = "flux2"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -14,7 +16,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
             sha256 = "4fdd2e02afd7688f835d2b176e954a3f9f252c7b5fae7fa9499708fb88e22519",
             resources = {
                 {
@@ -27,7 +29,7 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
             sha256 = "9875c6895352c2848808dd1f4497611a94de9a704378b5e0ade8044f9948c31e",
             resources = {
                 {
@@ -40,7 +42,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
             sha256 = "001f5b2425ea70b4a9d7e83d7c7034233fddea82682dc3b5a9ef2d7f970dad32",
             resources = {
                 {
@@ -53,7 +55,7 @@ food = {
         {
             os = "linux",
             arch = "arm64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
             sha256 = "638fdbf363c9521e21202a6cffeb220dcc3f2c85f14ea14ad8a05f01cf61b13d",
             resources = {
                 {
@@ -66,7 +68,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
             sha256 = "0c5cba7f7798c6008a4436d30b7a4439cc7181123694f9303bf60921dbe0e8c7",
             resources = {
                 {

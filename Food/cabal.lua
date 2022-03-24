@@ -1,3 +1,4 @@
+-- type = haskell -- DO NOT REMOVE THIS LINE!
 local name = "cabal"
 local version = "3.2.0.0"
 

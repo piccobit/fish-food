@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "bicep"
 local version = "0.4.1318"
 local release = "v" .. version

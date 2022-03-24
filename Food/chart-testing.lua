@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "chart-testing"
 local bin = "ct"
 local version = "3.5.1"

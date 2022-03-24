@@ -1,6 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "critest"
 local version = "1.23.0"
+local org = "kubernetes-sigs"
 local repo = "cri-tools"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -12,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
             sha256 = "fe58c1dd8e423a6a21cb3784a3417c39775b63a7babf016a1f2fe130d73b415a",
             resources = {
                 {
@@ -25,7 +28,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
             sha256 = "55569d28187d7d31afa7916baffd8f8148b9690c14ec762c9086e93ba677551b",
             resources = {
                 {
@@ -38,7 +41,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
             sha256 = "04d2648cb3b9d5b36f6c96e6622f4ebaf8bd45edc5095ba05fc45a6e2b338a8f",
             resources = {
                 {

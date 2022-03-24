@@ -1,3 +1,4 @@
+-- type = googleapis -- DO NOT REMOVE THIS LINE!
 local name = "berglas"
 local version = "0.6.2"
 local org = ""

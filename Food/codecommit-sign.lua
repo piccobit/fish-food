@@ -1,3 +1,4 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "codecommit-sign"
 local version = "1.3.1"
 local org = "gembaadvantage"
