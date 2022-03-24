@@ -1,3 +1,4 @@
+-- type = doit-intl -- DO NOT REMOVE THIS LINE!
 local name = "kube-no-trouble"
 local release = "0.5.1"
 local version = "0.5.1"

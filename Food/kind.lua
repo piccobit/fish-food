@@ -1,6 +1,11 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kind"
 local release = "v0.11.1"
 local version = "0.11.1"
+local org = "kubernetes-sigs"
+local repo = "kind"
+local base_url = "https://github.com/" .. org .. "/" .. repo
+
 food = {
     name = name,
     description = "Kubernetes IN Docker - local clusters for testing Kubernetes",
@@ -11,7 +16,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
             sha256 = "432bef555a70e9360b44661c759658265b9eaaf7f75f1beec4c4d1e6bbf97ce3",
             resources = {
                 {
@@ -24,7 +29,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
             sha256 = "949f81b3c30ca03a3d4effdecda04f100fa3edc07a28b19400f72ede7c5f0491",
             resources = {
                 {
@@ -37,7 +42,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64",
             sha256 = "d309d8056cec8bcabb24e185200ef8f9702e0c01a9ec8a7f7185fe956783ed97",
             resources = {
                 {

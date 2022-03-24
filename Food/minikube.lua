@@ -1,9 +1,11 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "minikube"
 local org = "kubernetes"
 local release = "v1.25.2"
 local version = "1.25.2"
 local org = "kubernetes"
 local repo = "minikube"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -15,7 +17,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64.tar.gz",
             sha256 = "6d4544c7fe5e9eba854b1f8dccfb4941d5ae214ff5b53eb1fbd5c829934d1024",
             resources = {
                 {
@@ -28,7 +30,7 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-darwin-arm64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-arm64.tar.gz",
             sha256 = "94d594e33854ca7b29881905228131a7ef69a8eb31ddfddf44c50890522fee43",
             resources = {
                 {
@@ -41,7 +43,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64.tar.gz",
             sha256 = "56af8d6ad053322fda20386baaabd824c962a72e263ed14722c986c9bdfb0f87",
             resources = {
                 {
@@ -54,7 +56,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.tar.gz",
             sha256 = "e367e45ed1134bc7ffc0f7dbf6ba9e8937265b06cf5207e95289055d676e538c",
             resources = {
                 {

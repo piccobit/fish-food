@@ -1,8 +1,10 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "k9s"
 local version = "0.25.18"
 local release = "v" .. version
-local org = ""
+local org = "derailed"
 local repo = name
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -14,7 +16,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Darwin_x86_64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_Darwin_x86_64.tar.gz",
             sha256 = "d41dd24d2bb1b1ac8044b3e1a92f733d2f0422354761953930c96344da958b01",
             resources = {
                 {
@@ -27,7 +29,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Linux_x86_64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_Linux_x86_64.tar.gz",
             sha256 = "d288aacc368ab6b243fc9e7ecd17b53fa34a813509c2dc3023171085db83cf9d",
             resources = {
                 {
@@ -40,7 +42,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/derailed/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_Windows_x86_64.tar.gz",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_Windows_x86_64.tar.gz",
             sha256 = "fc695992d3e615d82f53cfaa44c97ee67bd5182e928799d763388895ee4ec19b",
             resources = {
                 {

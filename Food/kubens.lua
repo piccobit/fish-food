@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kubens"
 local version = "0.9.4"
 local org = "ahmetb"
 local repo = "kubectx"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_x86_64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_x86_64.tar.gz",
             sha256 = "ef43ab1217e09ac1b929d4b9dd2c22cbb10540ef277a3a9b484c020820c988b1",
             resources = {
                 {
@@ -26,7 +28,7 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_arm64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_arm64.tar.gz",
             sha256 = "dbae919016d4ebfa09780135cacd9d787b2d3882f13c3d5b3c3c883180496209",
             resources = {
                 {
@@ -39,7 +41,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_linux_x86_64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_linux_x86_64.tar.gz",
             sha256 = "8b3672961fb15f8b87d5793af8bd3c1cca52c016596fbf57c46ab4ef39265fcd",
             resources = {
                 {
@@ -52,7 +54,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/" .. org .. "/" .. repo .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_windows_x86_64.zip",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_windows_x86_64.zip",
             sha256 = "eab9ace6e25303b522e7006a1c9e44747b9e9c005e15b1fcf8a9678569ca1c95",
             resources = {
                 {

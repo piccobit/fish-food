@@ -1,3 +1,4 @@
+-- type = k8s -- DO NOT REMOVE THIS LINE!
 local name = "kubectl"
 local version = "1.23.4"
 

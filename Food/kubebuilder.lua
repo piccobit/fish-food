@@ -1,8 +1,10 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kubebuilder"
 local version = "3.3.0"
 local release = "v" .. version
-local org = ""
+local org = "kubernetes-sigs"
 local repo = name
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -14,7 +16,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
             sha256 = "d5c3ed529d8156005ce15de43f6f505abc4beb63e9b0ac9e215edaecb64c2ce3",
             resources = {
                 {
@@ -27,7 +29,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/kubernetes-sigs/" .. name .. "/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
             sha256 = "f9fb1a8e329dfe3be635ccdec3c7d3a6df4092ba13243bfcb89111b12343eb4f",
             resources = {
                 {

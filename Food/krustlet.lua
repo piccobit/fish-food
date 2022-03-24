@@ -1,3 +1,4 @@
+-- type = windowsdotnet -- DO NOT REMOVE THIS LINE!
 local name = "krustlet"
 local version = "0.7.0"
 local release = "v" .. version
