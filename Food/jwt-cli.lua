@@ -2,8 +2,8 @@
 local name = "jwt-cli"
 local version = "5.0.2"
 local exe = "jwt"
-local org = ""
-local repo = name
+local org = "mike-engel"
+local repo = "jwt-cli"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

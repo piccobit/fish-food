@@ -2,7 +2,7 @@
 local name = "brig"
 local version = "2.3.1"
 local org = "Azure"
-local repo = name
+local repo = "brig"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

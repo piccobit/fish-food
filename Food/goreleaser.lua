@@ -2,7 +2,7 @@
 local name = "goreleaser"
 local version = "1.7.0"
 local org = "goreleaser"
-local repo = name
+local repo = "goreleaser"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

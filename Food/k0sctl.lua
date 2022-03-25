@@ -2,7 +2,7 @@
 local name = "k0sctl"
 local version = "0.12.6"
 local org = "k0sproject"
-local repo = name
+local repo = "k0sctl"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

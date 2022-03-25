@@ -3,7 +3,7 @@ local name = "dep"
 local version = "0.5.4"
 local release = "v" .. version
 local org = "golang"
-local repo = name
+local repo = "dep"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

@@ -2,7 +2,7 @@
 local name = "aks-engine"
 local version = "0.69.0"
 local org = "Azure"
-local repo = name
+local repo = "aks-engine"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

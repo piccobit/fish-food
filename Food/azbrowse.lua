@@ -2,7 +2,7 @@
 local name = "azbrowse"
 local version = "2.1.563"
 local org = "lawrencegripper"
-local repo = name
+local repo = "azbrowse"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

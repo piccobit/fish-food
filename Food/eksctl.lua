@@ -2,7 +2,7 @@
 local name = "eksctl"
 local version = "0.88.0"
 local org = "weaveworks"
-local repo = name
+local repo = "eksctl"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

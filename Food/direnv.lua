@@ -2,8 +2,8 @@
 local name = "direnv"
 local version = "2.30.3"
 local release = "v" .. version
-local org = name
-local repo = name
+local org = "direnv"
+local repo = "direnv"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

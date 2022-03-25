@@ -2,7 +2,7 @@
 local name = "arkade"
 local version = "0.8.14"
 local org = "alexellis"
-local repo = name
+local repo = "arkade"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

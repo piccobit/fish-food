@@ -2,7 +2,7 @@
 local name = "grpc-client-cli"
 local version = "1.12.0"
 local org = "vadimi"
-local repo = name
+local repo = "grpc-client-cli"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

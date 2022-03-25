@@ -2,7 +2,7 @@
 local name = "helmfile"
 local version = "0.143.1"
 local org = "roboll"
-local repo = name
+local repo = "helmfile"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

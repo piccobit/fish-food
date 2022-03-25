@@ -2,7 +2,7 @@
 local name = "anycable-go"
 local version = "1.2.0"
 local org = "anycable"
-local repo = name
+local repo = "anycable-go"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

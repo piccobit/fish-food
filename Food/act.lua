@@ -2,7 +2,7 @@
 local name = "act"
 local version = "0.2.25"
 local org = "nektos"
-local repo = name
+local repo = "act"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

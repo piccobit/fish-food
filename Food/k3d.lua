@@ -3,7 +3,7 @@ local name = "k3d"
 local version = "5.3.0"
 local release = "v" .. version
 local org = "rancher"
-local repo = name
+local repo = "k3d"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

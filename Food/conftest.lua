@@ -3,7 +3,7 @@ local name = "conftest"
 local release = "v0.30.0"
 local version = "0.30.0"
 local org = "open-policy-agent"
-local repo = name
+local repo = "conftest"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

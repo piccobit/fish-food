@@ -1,8 +1,8 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "fission"
 local version = "1.15.1"
-local org = name
-local repo = name
+local org = "fission"
+local repo = "fission"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

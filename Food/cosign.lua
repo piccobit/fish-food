@@ -1,8 +1,8 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "cosign"
 local version = "1.6.0"
-local org = ""
-local repo = name
+local org = "sigstore"
+local repo = "cosign"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

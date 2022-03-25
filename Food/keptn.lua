@@ -1,8 +1,8 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "keptn"
 local version = "0.9.2"
-local org = "kept"
-local repo = name
+local org = "keptn"
+local repo = "keptn"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

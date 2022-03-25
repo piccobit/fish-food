@@ -2,7 +2,7 @@
 local name = "codecommit-sign"
 local version = "1.3.1"
 local org = "gembaadvantage"
-local repo = name
+local repo = "codecommit-sign"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

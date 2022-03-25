@@ -2,7 +2,7 @@
 local name = "jx"
 local version = "3.2.267"
 local org = "jenkins-x"
-local repo = name
+local repo = "jx"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

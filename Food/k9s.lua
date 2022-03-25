@@ -3,7 +3,7 @@ local name = "k9s"
 local version = "0.25.18"
 local release = "v" .. version
 local org = "derailed"
-local repo = name
+local repo = "k9s"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

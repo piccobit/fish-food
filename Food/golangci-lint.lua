@@ -3,7 +3,7 @@ local name = "golangci-lint"
 local version = "1.45.0"
 local release = "v" .. version
 local org = "golangci"
-local repo = name
+local repo = "golangci-lint"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

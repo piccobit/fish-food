@@ -3,7 +3,7 @@ local name = "kubebuilder"
 local version = "3.3.0"
 local release = "v" .. version
 local org = "kubernetes-sigs"
-local repo = name
+local repo = "kubebuilder"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

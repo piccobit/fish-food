@@ -2,7 +2,7 @@
 local name = "age"
 local version = "1.0.0"
 local org = "FiloSottile"
-local repo = name
+local repo = "age"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

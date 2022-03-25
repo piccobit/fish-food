@@ -2,7 +2,7 @@
 local name = "gofish"
 local version = "0.18.0"
 local org = "tinned-fish"
-local repo = name
+local repo = "gofish"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

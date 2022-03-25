@@ -2,7 +2,7 @@
 local name = "gomplate"
 local version = "3.10.0"
 local org = "hairyhenderson"
-local repo = name
+local repo = "gomplate"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

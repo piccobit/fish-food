@@ -2,7 +2,7 @@
 local name = "jreleaser"
 local version = "1.0.0-M3"
 local org = "jreleaser"
-local repo = name
+local repo = "jreleaser"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

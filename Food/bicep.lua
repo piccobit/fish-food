@@ -3,7 +3,7 @@ local name = "bicep"
 local version = "0.4.1318"
 local release = "v" .. version
 local org = "Azure"
-local repo = name
+local repo = "bicep"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

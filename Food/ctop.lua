@@ -3,7 +3,7 @@ local name = "ctop"
 local release = "0.7.7"
 local version = "0.7.7"
 local org = "bcicen"
-local repo = name
+local repo = "ctop"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

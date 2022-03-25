@@ -2,7 +2,7 @@
 local name = "glide"
 local version = "0.13.3"
 local org = "Masterminds"
-local repo = name
+local repo = "glide"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

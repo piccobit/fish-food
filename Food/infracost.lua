@@ -2,7 +2,7 @@
 local name = "infracost"
 local version = "0.9.20"
 local org = "infracost"
-local repo = name
+local repo = "infracost"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

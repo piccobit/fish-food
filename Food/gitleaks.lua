@@ -3,7 +3,7 @@ local name = "gitleaks"
 local version = "8.5.1"
 local release = "v" .. version
 local org = "zricethezav"
-local repo = name
+local repo = "gitleaks"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

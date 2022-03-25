@@ -3,7 +3,7 @@ local name = "chart-testing"
 local bin = "ct"
 local version = "3.5.1"
 local org = "helm"
-local repo = name
+local repo = "chart-testing"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

@@ -2,7 +2,7 @@
 local name = "hugo"
 local version = "0.95.0"
 local org = "gohugoio"
-local repo = name
+local repo = "hugo"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

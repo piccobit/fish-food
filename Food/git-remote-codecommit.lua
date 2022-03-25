@@ -3,7 +3,7 @@ local name = "git-remote-codecommit"
 local version = "1.0.1"
 local release = "v" .. version
 local org = "gembaadvantage"
-local repo = name
+local repo = "git-remote-codecommit"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

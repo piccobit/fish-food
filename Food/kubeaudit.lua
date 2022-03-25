@@ -2,7 +2,7 @@
 local name = "kubeaudit"
 local version = "0.16.0"
 local org = "Shopify"
-local repo = name
+local repo = "kubeaudit"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
