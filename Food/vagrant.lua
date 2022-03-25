@@ -1,3 +1,4 @@
+-- type = hashicorp -- DO NOT REMOVE THIS LINE!
 local name = "vagrant"
 local version = "2.2.19"
 

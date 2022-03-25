@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "yaegi"
 local version = "0.11.2"
-local org = ""
-local repo = name
+local org = "traefik"
+local repo = "yaegi"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/traefik/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_darwin_amd64.tar.gz",
             sha256 = "8262a0b53b29ad69c7df71e15753854e1ca28d64e7f00fa875a990541995c84f",
             resources = {
                 {
@@ -26,7 +28,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/traefik/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_linux_amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_v" .. version .. "_linux_amd64.tar.gz",
             sha256 = "310d686640fbdecc6d4202fa2034b2e6e56c2553d5828d5b189f1be29459cbcb",
             resources = {
                 {

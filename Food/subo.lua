@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "subo"
 local version = "0.2.2"
-local org = ""
-local repo = name
+local org = "suborbital"
+local repo = "subo"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/suborbital/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
             sha256 = "3474ed882f283b74454d5bda62700b6ee6d6bb6da18198c83103417a6bf89b49",
             resources = {
                 {
@@ -26,7 +28,7 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = "https://github.com/suborbital/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-arm64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-arm64.tar.gz",
             sha256 = "dbc94f6589603865aa40e328aaaaeaa19f05a7cde5e6e259d341936f8bc6b622",
             resources = {
                 {
@@ -39,7 +41,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/suborbital/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
             sha256 = "6453d20d7af2b9079a4a80ea53b8fc4f40f2e6df2a359f957ff2e533b1c6bb7d",
             resources = {
                 {
@@ -52,7 +54,7 @@ food = {
         {
             os = "linux",
             arch = "arm64",
-            url = "https://github.com/suborbital/" .. name .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-arm64.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-arm64.tar.gz",
             sha256 = "8620a0fa17a1fc2c3f4a8388808baac9b2cc1b1c26dbef5cc04bd9176ff92bdf",
             resources = {
                 {

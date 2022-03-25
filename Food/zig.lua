@@ -1,3 +1,4 @@
+-- type = ziglangorg -- DO NOT REMOVE THIS LINE!
 local name = "zig"
 local version = "0.9.0"
 

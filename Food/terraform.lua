@@ -1,3 +1,4 @@
+-- type = hashicorp -- DO NOT REMOVE THIS LINE!
 local name = "terraform"
 local version = "1.1.7"
 

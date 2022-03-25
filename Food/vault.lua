@@ -1,3 +1,4 @@
+-- type = hashicorp -- DO NOT REMOVE THIS LINE!
 local name = "vault"
 local version = "1.9.4"
 

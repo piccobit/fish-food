@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "snyk"
 local version = "1.744.0"
-local org = ""
-local repo = name
+local org = "snyk"
+local repo = "snyk"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -12,7 +14,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/snyk/snyk/releases/download/v" .. version .. "/snyk-macos",
+            url = base_url .. "/releases/download/v" .. version .. "/snyk-macos",
             sha256 = "50c4b863ea264a83a0786fdf2d40b31294070fdc811476d284d5ad20c92ede60",
             resources = {
                 {
@@ -25,7 +27,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/snyk/snyk/releases/download/v" .. version .. "/snyk-linux",
+            url = base_url .. "/releases/download/v" .. version .. "/snyk-linux",
             sha256 = "be706e47a31775ca513697179fdb1b0971c8ee9b2ca2b5bd8e2dfc407f9ee02e",
             resources = {
                 {
@@ -38,7 +40,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/snyk/snyk/releases/download/v" .. version .. "/snyk-win.exe",
+            url = base_url .. "releases/download/v" .. version .. "/snyk-win.exe",
             sha256 = "a014071dd86068eb85cc08222c3cd5167227d47eaffca0e9311cf82080c6dbfe",
             resources = {
                 {

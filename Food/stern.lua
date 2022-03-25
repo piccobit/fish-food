@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "stern"
 local version = "1.11.0"
-local org = ""
-local repo = name
+local org = "wercker"
+local repo = "stern"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -13,7 +15,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/wercker/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_darwin_amd64",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_darwin_amd64",
             sha256 = "7aea3b6691d47b3fb844dfc402905790665747c1e6c02c5cabdd41994533d7e9",
             resources = {
                 {
@@ -26,7 +28,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/wercker/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_linux_amd64",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_linux_amd64",
             sha256 = "e0b39dc26f3a0c7596b2408e4fb8da533352b76aaffdc18c7ad28c833c9eb7db",
             resources = {
                 {
@@ -39,7 +41,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/wercker/" .. name .. "/releases/download/" .. version .. "/" .. name .. "_windows_amd64.exe",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_windows_amd64.exe",
             sha256 = "75708b9acf6ef0eeffbe1f189402adc0405f1402e6b764f1f5152ca288e3109e",
             resources = {
                 {

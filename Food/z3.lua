@@ -1,7 +1,9 @@
+-- type = github -- DO NOT REMOVE THIS LINE!
 local name = "z3"
 local version = "4.8.15"
-local org = ""
-local repo = name
+local org = "Z3Prover"
+local repo = "z3"
+local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
@@ -12,7 +14,7 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-osx-10.16.zip",
+            url = base_url .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-osx-10.16.zip",
             sha256 = "289497b5d6f74dd4a2f07895bf4384b071e88e347f411800b2c4669b621c969d",
             resources = {
                 {
@@ -25,7 +27,7 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-glibc-2.31.zip",
+            url = base_url .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-glibc-2.31.zip",
             sha256 = "6328a206a086ea91abcfa086e800afd6fdc832450d610b3bd0e4245b6681292c",
             resources = {
                 {
@@ -38,7 +40,7 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-win.zip",
+            url = base_url .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x64-win.zip",
             sha256 = "64233cc73e152b7de0ddec9179089f3f61a0f38ca1dbb390f1de2f97322f781a",
             resources = {
                 {
@@ -50,7 +52,7 @@ food = {
         {
             os = "windows",
             arch = "386",
-            url = "https://github.com/Z3Prover/" .. name .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x86-win.zip",
+            url = base_url .. "/releases/download/" .. name .. "-" .. version .. "/" .. name .. "-" .. version .. "-x86-win.zip",
             sha256 = "6e03409e0e3045e4ee670ec0e1ea614bd551b054329ce17ac1b703880b4ea478",
             resources = {
                 {
