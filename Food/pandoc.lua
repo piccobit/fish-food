@@ -1,7 +1,7 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "pandoc"
 local version = "2.16.2"
-local org = "jqm"
+local org = "jgm"
 local repo = "pandoc"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 

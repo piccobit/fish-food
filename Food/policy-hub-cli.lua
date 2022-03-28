@@ -2,8 +2,8 @@
 local name = "policy-hub-cli"
 local release = "v0.1.0"
 local version = "0.1.0"
-local org = "policy-hub-cli"
-local repo = "policy-hub"
+local org = "policy-hub"
+local repo = "policy-hub-cli"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

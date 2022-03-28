@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "direnv"
-local version = "2.30.3"
+local version = "2.31.0"
 local release = "v" .. version
 local org = "direnv"
 local repo = "direnv"
@@ -17,7 +17,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".darwin-amd64",
-            sha256 = "f5d539239f4982c036443947bf6501f8f21f3780e8f91793f5569ad55b4dc9aa",
+            sha256 = "8efdb4b91922e609d1e94402011f24aab66734e94776f7c41cb343ff6beae550",
             resources = {
                 {
                     path = name .. ".darwin-amd64",
@@ -30,7 +30,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".darwin-arm64",
-            sha256 = "7046b4c56ae65f036c362e60d27f4dc0b96dfaf5918360ed0d6fe4e898a48a94",
+            sha256 = "84d3e8d7cd9f9998ccf09a35907db4921a118d0e1efd7f3932a4cf151e3bc1c5",
             resources = {
                 {
                     path = name .. ".darwin-arm64",
@@ -43,7 +43,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".linux-amd64",
-            sha256 = "5571fd7879bb340c3392005abf82480567df8e0eb2c42a279e17ab5c0c0e8918",
+            sha256 = "6961e4af7231066bcbf82ee0e17b4c98bcf7fdd102517bcad888d58921b378d7",
             resources = {
                 {
                     path = name .. ".linux-amd64",
@@ -56,7 +56,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".linux-arm64",
-            sha256 = "f8c16e75415da36d846db69c3767f17784b4324a96a78f16f29a90e47d017119",
+            sha256 = "57343506a7478e22f17894b934f6020cf58bd80e2f789c9bb156326f66041498",
             resources = {
                 {
                     path = name .. ".linux-arm64",
@@ -69,7 +69,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".windows-amd64.exe",
-            sha256 = "07bbe9080fa4c0f0475434d1d2ff27a19b5cd13410882969389c3aab48a83f56",
+            sha256 = "d5181706672737d28ad7916fd25ca70800c1eb068695cd512fd3a97e541acdde",
             resources = {
                 {
                     path = name .. ".windows-amd64.exe",

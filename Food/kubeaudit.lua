@@ -22,11 +22,6 @@ food = {
                     path = name,
                     installpath = "bin/" .. name,
                     executable = true
-                },
-                {
-                    path = name,
-                    installpath = "bin/kubectl-audit",
-                    executable = true
                 }
             }
         },
@@ -39,11 +34,6 @@ food = {
                 {
                     path = name,
                     installpath = "bin/" .. name,
-                    executable = true
-                },
-                {
-                    path = name,
-                    installpath = "bin/kubectl-audit",
                     executable = true
                 }
             }
@@ -58,11 +48,6 @@ food = {
                     path = name,
                     installpath = "bin/" .. name,
                     executable = true
-                },
-                {
-                    path = name,
-                    installpath = "bin/kubectl-audit",
-                    executable = true
                 }
             }
         },
@@ -75,11 +60,6 @@ food = {
                 {
                     path = name,
                     installpath = "bin/" .. name,
-                    executable = true
-                },
-                {
-                    path = name,
-                    installpath = "bin/kubectl-audit",
                     executable = true
                 }
             }
@@ -94,11 +74,6 @@ food = {
                     path = name,
                     installpath = "bin/" .. name,
                     executable = true
-                },
-                {
-                    path = name,
-                    installpath = "bin/kubectl-audit",
-                    executable = true
                 }
             }
         },
@@ -109,13 +84,8 @@ food = {
             sha256 = "e82a3d02f178d53929276ef113f5b2ed03b6df52886cbcd699ab66f4b206e595",
             resources = {
                 {
-                    path = name,
-                    installpath = "bin/" .. name .. ".exe",
-                    executable = true
-                },
-                {
-                    path = name,
-                    installpath = "bin/kubectl-audit.exe",
+                    path = name .. ".exe",
+                    installpath = "bin\\" .. name .. ".exe",
                     executable = true
                 }
             }

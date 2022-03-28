@@ -2,6 +2,8 @@
 local name = "devdash"
 local release = "v0.5.0"
 local version = "0.5.0"
+local org = "Phantas0s"
+local repo = "devdash"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

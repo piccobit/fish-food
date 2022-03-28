@@ -3,7 +3,7 @@ local name = "mole"
 local release = "v2.0.0"
 local version = "2.0.0"
 local org = "davrodpin"
-local repe = "mole"
+local repo = "mole"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

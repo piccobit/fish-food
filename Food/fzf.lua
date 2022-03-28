@@ -3,7 +3,7 @@ local name = "fzf"
 local release = "0.29.0"
 local version = "0.29.0"
 local org = "junegunn"
-local repo = nane
+local repo = "fzf"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

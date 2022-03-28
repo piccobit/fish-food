@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "fission"
-local version = "1.15.1"
+local version = "1.16.0-rc1"
 local org = "fission"
 local repo = "fission"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/fission-v" .. version .. "-darwin-amd64",
-            sha256 = "3f38af784b9a9ff2cabd3ff4c31cde127f6729a5193cc0c88311d95fbcc16498",
+            sha256 = "377d683de073f6edd80ae84ec609d723059fae3bd8ecbaf977688b7890d7b22f",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-darwin-amd64",
@@ -29,7 +29,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/fission-v" .. version .. "-linux-amd64",
-            sha256 = "213c9c3bbec1da676b21e9eacd025a07f3f36887cfb68ff941b87ece2247e5a7",
+            sha256 = "48f101049cc6cad138f91bf1829cf62302c90b18e267b2cf89e4fc4b44d918e7",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-linux-amd64",
@@ -42,7 +42,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/fission-v" .. version .. "-windows-amd64.exe",
-            sha256 = "778d7cd231b5d1eab88c7b5c6024bd9169fb6e4831d96e264194b6173f638010",
+            sha256 = "9ea5fac51ac1dbfdf6b9237298b09e8456b9902962b22ebb406132d3b9c14ca6",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-windows-amd64.exe",

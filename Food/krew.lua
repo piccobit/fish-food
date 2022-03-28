@@ -1,8 +1,8 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
-local name = "act"
-local version = "0.2.26"
-local org = "nektos"
-local repo = "act"
+local name = "krew"
+local version = "0.4.3"
+local org = "kubernetes-sigs"
+local repo = "krew"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
@@ -15,11 +15,11 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_x86_64.tar.gz",
-            sha256 = "5de8470c3eece9a2ac95e560c74a124d15ff113236d63c9387d286bff9afd5a5",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin_amd64.tar.gz",
+            sha256 = "6f6a774f03ad4190a709d7d4dcbb4af956ca0eb308cb0d0a44abc90777b0b21a",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-darwin_amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -28,11 +28,11 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_arm64.tar.gz",
-            sha256 = "081e9656e9f27bcc41db59cb842c8d01b2e7e4cf500c67fb272688b74c0e8803",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin_arm64.tar.gz",
+            sha256 = "22f29ce3c3c9c030e2eaf3939d2b00f0187dfdbbfaee37fba8ffaadc46e51372",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-darwin_arm64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -41,11 +41,11 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_x86_64.tar.gz",
-            sha256 = "da7cea99e2fc3ffa2db3e83a2983fdb20f7228c0c4855a0b7fa74dab40997853",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux_amd64.tar.gz",
+            sha256 = "5df32eaa0e888a2566439c4ccb2ef3a3e6e89522f2f2126030171e2585585e4f",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-linux_amd64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -54,11 +54,11 @@ food = {
         {
             os = "linux",
             arch = "arm64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_arm64.tar.gz",
-            sha256 = "8a48ea04cf5c0cc643e3b4d815780d9f433a245507c94289a9132b29aeccf832",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux_arm64.tar.gz",
+            sha256 = "0994923848882ad0d4825d5af1dc227687a10a02688f785709b03549dd34d71d",
             resources = {
                 {
-                    path = name,
+                    path = name .. "-linux_arm64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -67,11 +67,11 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Windows_x86_64.zip",
-            sha256 = "2d798dea2076fbb1a2ed64b84a86c1650d0670008c2356d0290d0133a82fff66",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-windows_amd64.tar.gz",
+            sha256 = "d1343a366a867e9de60b23cc3d8ee935ee185af25ff8f717a5e696ba3cae7c85",
             resources = {
                 {
-                    path = name .. ".exe",
+                    path = name .. "-windows_amd64" .. ".exe",
                     installpath = "bin\\" .. name .. ".exe"
                 }
             }

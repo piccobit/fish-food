@@ -5,6 +5,7 @@ local release = "v" .. version
 local org = "bitnami-labs"
 local repo = "sealed-secrets"
 local base_url = "https://github.com/" .. org .. "/" .. repo
+local exclude_pattern = "helm-"
 
 food = {
     name = name,

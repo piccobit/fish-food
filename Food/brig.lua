@@ -1,8 +1,8 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "brig"
 local version = "2.3.1"
-local org = "Azure"
-local repo = "brig"
+local org = "brigadecore"
+local repo = "brigade"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {

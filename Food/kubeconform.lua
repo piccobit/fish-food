@@ -67,7 +67,7 @@ food = {
         {
             os = "linux",
             arch = "armv6",
-            url = base_url .. "/kubeconform/releases/download/v" .. version .. "/" .. name .. "-linux-armv6.tar.gz",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-armv6.tar.gz",
             sha256 = "87ba2ff1c1887dc543c7521cda5eb657c37154dfceb22cd5ff6d755f06150141",
             resources = {
                 {

@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "istioctl"
-local version = "1.13.1"
+local version = "1.13.2"
 local org = "istio"
 local repo = "istio"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/istio" .. "-" .. version .. "-osx.tar.gz",
-            sha256 = "fd9a9b85ba9d8c2fb8e8d5cf6db79b7fb565b78380cb369db4a748d9622b7c6a",
+            sha256 = "5569958ac9d245cc3225d8062e0724b05622c70bb3e567df640ef6e052161ac1",
             resources = {
                 {
                     path = "istio-" .. version .. "/bin/" .. name ,
@@ -29,7 +29,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/istio" .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "fc3ce898bca06af01e3e0d28cb7ff34c59c7878bf50e5c7c56ee28d44eb96f3f",
+            sha256 = "a1c30fe5c612fce80a19fe3d221ddac43f8fc6395e0f18d12bd34320f059dea7",
             resources = {
                 {
                     path = "istio-" .. version .. "/bin/" .. name ,
@@ -42,7 +42,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/istio" .. "-" .. version .. "-win.zip",
-            sha256 = "8057f5b5d3fd333709b95545120b818b64d3a128d09950dd459625671519651a",
+            sha256 = "f79e841f5dde317828106a4fb6b451aa562fce4cad52fa508fff0fcfea217d81",
             resources = {
                 {
                     path = "istio-" .. version .. "/bin/" .. name .. ".exe",

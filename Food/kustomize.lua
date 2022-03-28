@@ -5,6 +5,7 @@ local release = name .. "%2Fv" .. version
 local org = "kubernetes-sigs"
 local repo = "kustomize"
 local base_url = "https://github.com/" .. org .. "/" .. repo
+local include_pattern = "kustomize"
 
 food = {
     name = name,
