@@ -1,7 +1,7 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kubekey"
-local release = "v1.1.1"
-local version = "1.1.1"
+local version = "2.0.0"
+local release = "v2.0.0"
 local org = "kubesphere"
 local repo = "kubekey"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -17,7 +17,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "b1131870e71d825410fe76f8379ff0ca6cef59d180cf980f908ef62456d7182a",
+            sha256 = "d7c81c5207b9f87e03799fcb23bbb0f57d99b5744f107238541a6485f08edca5",
             resources = {
                 {
                     path = "kk",

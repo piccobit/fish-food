@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kustomize"
-local version = "4.5.2"
+local version = "4.5.3"
 local release = name .. "%2Fv" .. version
 local org = "kubernetes-sigs"
 local repo = "kustomize"
@@ -17,7 +17,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_v" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "4b7dac92c8f2dd383651276c78d9e6d28031f50f3711cd987347a08edf0c8335",
+            sha256 = "b0a6b0568273d466abd7cd535c556e44aa9ff5f54c07e86ed9f3016b416de992",
             resources = {
                 {
                     path = name,
@@ -30,7 +30,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_v" .. version .. "_darwin_arm64.tar.gz",
-            sha256 = "4ee7ef099b8f59d65cb393d9c1b8fa49a392529dbefcd469359cc51094dad517",
+            sha256 = "2fb58138c319d404e1604ae6665356e211b2ea45f17f174df1322de0100a55c4",
             resources = {
                 {
                     path = name,
@@ -43,7 +43,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_v" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "c4215332da8da16ddeb88e218d8dceb76c85b366a5c58d012bc5ece904bf2fd0",
+            sha256 = "e4dc2f795235b03a2e6b12c3863c44abe81338c5c0054b29baf27dcc734ae693",
             resources = {
                 {
                     path = name,
@@ -56,7 +56,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_v" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "3c6310caa6a23d17711a312f1a33690365ba6be9a806752aac215613fdf7c605",
+            sha256 = "ad5ac5ed8d244309e4a41cfd61e87918096e159514e4867c9449409b67a6709f",
             resources = {
                 {
                     path = name .. ".exe",

@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "keptn"
-local version = "0.9.2"
+local version = "0.13.4"
 local org = "keptn"
 local repo = "keptn"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "5b8f91731be413e4cf7b69219c0523d6fbef0225cf33d9aed573e242d1d9261d",
+            sha256 = "9f4e23d047507a80e5e5ded8e6a0c529da5d040b35190a5f58317882cd687ecc",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-amd64",
@@ -29,7 +29,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "e064e43c365109bb223f10da6ac554975283eda31437e75b8765ef3e43390a3d",
+            sha256 = "960c0ce050666e8563a7108569f60a7d491ac82919d1a08483e5f2928190068c",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64",
@@ -42,7 +42,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "a3dc433596dd2cb74b5501352512ed073a6fa5a1f5867a7e683f8ad712c9d0f7",
+            sha256 = "0fa66c46dea444e15682d64bb265ffa7f56dfd2ed4970967c4bdbddfbc7a1e6f",
             resources = {
                 {
                     path = name .. "-" .. version .. "-windows-amd64.exe",

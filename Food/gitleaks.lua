@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "gitleaks"
-local version = "8.5.1"
+local version = "8.5.2"
 local release = "v" .. version
 local org = "zricethezav"
 local repo = "gitleaks"
@@ -17,7 +17,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_x64.tar.gz",
-            sha256 = "deaa89979c43c1dc7ce561fd37418c229d073703daa451bd7ec77684743c790a",
+            sha256 = "469c7f77a1dd7f88fba422445a9607656ca6dfef7c08c36601469483fba2befd",
             resources = {
                 {
                     path = name,
@@ -30,7 +30,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
-            sha256 = "d42a06c71fe89f7491db9d202b53b446b17a63491347f3b7d914d6528b626bef",
+            sha256 = "ad361a3802ead3ba9246f8b8b8f87c09ba41ed7b3b04e1ec816188d5cf82d9a6",
             resources = {
                 {
                     path = name,
@@ -43,7 +43,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_x64.tar.gz",
-            sha256 = "c209ce638c7856afd5de7a2b600191e77bcc265ca18b198affd87e9d60ecc916",
+            sha256 = "d83e4721c58638d5a2128ca70341c87fe78b6275483e7dc769a9ca6fe4d25dfd",
             resources = {
                 {
                     path = name,
@@ -56,7 +56,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
-            sha256 = "a87531858beceeb7522f177e2db3ef8837bee7e6be242d10357d806c572261ee",
+            sha256 = "afe468947d809a7683ed6e9df296f076163661e493d669f7afa93971a3ac47c4",
             resources = {
                 {
                     path = name,
@@ -69,7 +69,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_x64.zip",
-            sha256 = "501d172d9fa9ed2bd9653c8b99718e0036825be2a7ef1152ec1938e1c95953c2",
+            sha256 = "44fa54f956bceb2d684849f02bf96f52dcb4783e66bc300a43e9f9221aefb3c1",
             resources = {
                 {
                     path = name .. ".exe",
