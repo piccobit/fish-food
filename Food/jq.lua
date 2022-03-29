@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "jq"
-local version = "1.6.0"
+local version = "jq-1.6"
 local release = "1.6"
 local org = "stedolan"
 local repo = "jq"
