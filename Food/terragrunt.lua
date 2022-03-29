@@ -1,7 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "terragrunt"
-local release = "v0.36.3"
-local version = "0.36.3"
+local version = "0.36.6"
 local org = "gruntwork-io"
 local repo = "terragrunt"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,8 +15,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
-            sha256 = "f90b6d1b67142fa48580ad50197920647d9b033d46de5d993d5b9920fa44a0b4",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64",
+            sha256 = "e670a0f51f0b0995d009aac2b98aeabaca8cd9fd6a9378ec42d61a37e87a9116",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -29,8 +28,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_darwin_arm64",
-            sha256 = "0b1b21498d20ad9f6a611b29c5493856415764c46c5f1afa25c9535142346780",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_arm64",
+            sha256 = "19a5dc50daa4bfc6dff684bc2f78a0bde6269864ac93902a5724416b713023b4",
             resources = {
                 {
                     path = name .. "_darwin_arm64",
@@ -42,8 +41,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
-            sha256 = "dcce6a7d968b79531fbf3348ec9dce096bfb56b4e1a49726ac89d75ba4754379",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_linux_amd64",
+            sha256 = "c50dc5da8d45f12e38073116b0bc805f3b1fe40036846f997fd8cbe092c02787",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -55,8 +54,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_windows_amd64.exe",
-            sha256 = "d9a2b6c9efeb2a6d3ee27fd165fc007a0a8b72190ca7b1b2bf328bdc0520017f",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.exe",
+            sha256 = "15154608754f242d5ffe62a14ca4b4e0af364ea83d3b86fcd554d9cdf8dd8165",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
