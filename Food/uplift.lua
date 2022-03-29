@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "uplift"
-local version = "2.1.0"
+local version = "2.4.2"
 local org = "gembaadvantage"
 local repo = "uplift"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,20 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-x86_64.tar.gz",
-            sha256 = "bf0720690c9d4e67712f0fb25b47e869bd10338a0009b37c6c4d3509a08d62c4",
+            sha256 = "ab6aec0fb9a7498024c7ad3046b1025c7c02aacce21e0979999f7910d6aaa1a9",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-arm64.tar.gz",
+            sha256 = "b8855fc1f385212256489799ed8a73507d0e24ee4ccfdaff2e888d2b0af5c23d",
             resources = {
                 {
                     path = name,
@@ -29,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux-x86_64.tar.gz",
-            sha256 = "f1642d0e8b1b20a8605f20e74da5be30311891c13a23f365033a36969f66f753",
+            sha256 = "3f696dd8b31ea479dcfcce433de0bfa1c1775ac1397f027182aa32ec4a3042f0",
             resources = {
                 {
                     path = name,
@@ -42,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows-x86_64.zip",
-            sha256 = "187d57812128abdfea895ba1d416340fc87f10cc6964bd08a973474b92d711a9",
+            sha256 = "391a1a00f4a0ec350e122084d3c55dc0e204eed47f837ff0bd1794fa7293c8b6",
             resources = {
                 {
                     path = name .. ".exe",
@@ -51,3 +64,4 @@ food = {
             }
         }
     }
+}

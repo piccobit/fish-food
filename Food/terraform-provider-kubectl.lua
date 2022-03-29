@@ -1,7 +1,7 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "terraform-provider-kubectl"
-local release = "v1.6.2"
-local version = "1.6.2"
+local version = "1.14.0"
+local release = "v1.14.0"
 local org = "gavinbunney"
 local repo = "terraform-provider-kubectl"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -17,7 +17,20 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.zip",
-            sha256 = "99c64f13b4f164c8fe70b405add3b4e867b186063408e3d31f1df68e1a9e7c42",
+            sha256 = "0350f3122ff711984bbc36f6093c1fe19043173fad5a904bce27f86afe3cc858",
+            resources = {
+                {
+                    path = name .. "_" .. release,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_arm64.zip",
+            sha256 = "c62e0c9fd052cbf68c5c2612af4f6408c61c7e37b615dc347918d2442dd05e93",
             resources = {
                 {
                     path = name .. "_" .. release,
@@ -30,7 +43,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.zip",
-            sha256 = "6a0b8af3434771b9d5c68f6b239c4cf55f0dc39ab63223b82b1dc2c87fc2b69e",
+            sha256 = "f0beffd7ce78f49ead612e4b1aefb7cb6a461d040428f514f4f9cc4e5698ac65",
             resources = {
                 {
                     path = name .. "_" .. release,
@@ -43,7 +56,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "8c3cfda57f4c56cbcbcf66df93fdb192d2e433204ec3fce50c4eeb1d2f82ac10",
+            sha256 = "0c351afd91d9e994a71fe64bbd1662d0024006b3493bb61d46c23ea3e42a7cf5",
             resources = {
                 {
                     path = name .. "_" .. release .. ".exe",
