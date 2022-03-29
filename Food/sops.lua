@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "sops"
-local version = "3.7.1"
+local version = "3.7.2"
 local org = "mozilla"
 local repo = "sops"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".darwin",
             -- shasum of the release archive
-            sha256 = "43d2f9c63921a57bf607268a05d480cc309e9979bb81269248dd117e5efac133",
+            sha256 = "1c48f8f87cc684dd79df9e894a85a7347eb0bdfbd5a3b2b1866af7733dbdb2a1",
             resources = {
                 {
                     path = name .. "-v" .. version .. ".darwin",
@@ -30,7 +30,7 @@ food = {
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".linux",
             -- shasum of the release archive
-            sha256 = "185348fd77fc160d5bdf3cd20ecbc796163504fd3df196d7cb29000773657b74",
+            sha256 = "0f54a5fc68f82d3dcb0d3310253f2259fef1902d48cfa0a8721b82803c575024",
             resources = {
                 {
                     path = name .. "-v" .. version .. ".linux",
@@ -44,7 +44,7 @@ food = {
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".exe",
             -- shasum of the release archive
-            sha256 = "a514bd0ade6d955a73f9c8b9dde6c33eca006430b0e72289467d2152c5321767",
+            sha256 = "c644ec3d3c069d29c7211dc8333280b93cf97059818b90c4317e94c37ba70e41",
             resources = {
                 {
                     path = name .. "-v" .. version .. ".exe",
@@ -53,3 +53,4 @@ food = {
             }
         }
     }
+}

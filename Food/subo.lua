@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "subo"
-local version = "0.2.2"
+local version = "0.4.2"
 local org = "suborbital"
 local repo = "subo"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "3474ed882f283b74454d5bda62700b6ee6d6bb6da18198c83103417a6bf89b49",
+            sha256 = "d49c4fa5a38dee1c35e65d291ffe9543393404fdeaa2a1e4993551560107fc1c",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "dbc94f6589603865aa40e328aaaaeaa19f05a7cde5e6e259d341936f8bc6b622",
+            sha256 = "2ab361188b730d59def03cc9edae72d62acd985df50028fd408271ec7fb799a1",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "6453d20d7af2b9079a4a80ea53b8fc4f40f2e6df2a359f957ff2e533b1c6bb7d",
+            sha256 = "97966b2ef9ff36613de8e4455adb01ee22c4a3802a58daafd78a16364e0489e9",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-arm64.tar.gz",
-            sha256 = "8620a0fa17a1fc2c3f4a8388808baac9b2cc1b1c26dbef5cc04bd9176ff92bdf",
+            sha256 = "09f6376ef63e89821d045bdfe315dfd983a216097565b822aa329886898354de",
             resources = {
                 {
                     path = name,

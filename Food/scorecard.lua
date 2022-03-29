@@ -1,7 +1,7 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "scorecard"
-local release = "v3.1.1"
-local version = "3.1.1"
+local version = "4.1.0"
+local release = "v4.1.0"
 local org = "ossf"
 local repo = "scorecard"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -17,7 +17,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "b14eda2316f1dfa68c64331f703eabc852e758e498e627d9dd6edfdcb957936f",
+            sha256 = "2f7844a1a680c27fd4043c27da43c9914b81a49c13684704af097a950715bb41",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -30,7 +30,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
-            sha256 = "302b6734796245df2c93e8a045a18e5fce2f5ccd45a06cd50be662557eb3125b",
+            sha256 = "33e7749a2c14ded7f6ed880b4c72f289aced63d5990136e5af1da29e400e139f",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -43,7 +43,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "a9e3e5210f3da26b6630f3938d2faf3be35f74c0bcc185030e3c3314501995ec",
+            sha256 = "ff56a379e3536c0882f75f269e85215f18ef0a39212646ce447931096c56c067",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -56,7 +56,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
-            sha256 = "18dd70c1b3a9511a788186add6771a1cda4e0e4f98a7c4a1597c02b400c3b774",
+            sha256 = "65d7c7c0dd22dfc0b529e3bb8c8cd818786b3791f9228c2edb1ec4d91e256a2a",
             resources = {
                 {
                     path = name .. "-linux-arm64",
@@ -69,7 +69,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "516f46df78fb10a7a3c954d00fb00b648868bd9a0c405831f72deec9e4f5dcc1",
+            sha256 = "e8bef1b6e651ba1b8418560460657e6ba51ec83f492bceddbda063ab8cd80206",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
