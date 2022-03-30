@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "jx"
-local version = "3.2.274"
+local version = "3.2.279"
 local org = "jenkins-x"
 local repo = "jx"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64.tar.gz",
-            sha256 = "6efc2626558bf5d891d54edcf201277bd87ade3996196152cc9c38a1161d23d9",
+            sha256 = "34b84a4c2a132a24c85ba8fd80ee2ea09c6cb40b9e137b1ce71efe172e54ab63",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64.tar.gz",
-            sha256 = "3549876bb578491a8b3fdc3e1f6abbb10f99cfa5bfec7248f5bfd57e95d7b30b",
+            sha256 = "afc7d3c0c8711fd51f59402b32d34d16be097a341005af9c24737e77d51036d3",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64.tar.gz",
-            sha256 = "9db8c4f646f7426e0b611344b2fd77418280c4a98110feaa6b1765df81004b8c",
+            sha256 = "550ae3552673b0d68cc2b8bb5f3b21b2d1f34054c5cfc41ecba345185a574188",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.zip",
-            sha256 = "65466dab08c972b8dadf7100e68250d1be3fadd8be1837e3289ffbef27f1d156",
+            sha256 = "39ed90d483da071f976cf26f80f95de28fc9e07f0f07bef0edd03d18fb7324e0",
             resources = {
                 {
                     path = name .. ".exe",

@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "snyk"
-local version = "1.887.0"
+local version = "1.889.0"
 local org = "snyk"
 local repo = "cli"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -15,7 +15,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-macos",
-            sha256 = "5970f96af9cee086839194e19e876d2c8820cb72781c34c73d608e59bd8f7cbb",
+            sha256 = "917edcd27d0b071aad867791af18891d3b345b34150a13de76b1aeb968bce8b5",
             resources = {
                 {
                     path = name .. "-macos",
@@ -28,7 +28,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux",
-            sha256 = "d89ba4eb0facd003650d0c69e340a9bf2ee9cd97b3ce5c2c02e334fe1b5f3b33",
+            sha256 = "2f821f86fa4c0541ac74d42c808a4accebd71974ca0ae677e5c692eb510e4b98",
             resources = {
                 {
                     path = name .. "-linux",
@@ -41,7 +41,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-win.exe",
-            sha256 = "69746e6ee03f3257c4d9b346ba375e2675775f95c3d78debb429f332564b6850",
+            sha256 = "ec0f623a36cf7f2022e8f190266770d94b1bf45d91f05a8715e28f11da9c0cde",
             resources = {
                 {
                     path = name .. "-win.exe",

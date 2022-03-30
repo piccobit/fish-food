@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "arkade"
-local version = "0.8.15"
+local version = "0.8.17"
 local org = "alexellis"
 local repo = "arkade"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-darwin",
-            sha256 = "57e62c458578620b170c6d083de7df2a0becff3116393e21d9e3842c7154d835",
+            sha256 = "3d2e273d8c4d2e88c8e07d23942a6b1e0357d7c4e4203a226263dfaf4028440b",
             resources = {
                 {
                     path = name .. "-darwin",
@@ -29,7 +29,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name,
-            sha256 = "4959878c96581761efcc3e4d530e01d292f5b8786c85ec041085246347aba87d",
+            sha256 = "9caa6cabe999dd8a5dfb3c9142f6c1bd18798bc5c44c7cdeb217588a446a9adf",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name .. ".exe",
-            sha256 = "aeb7ca7612a772fa25edfe7cc6b4c95921adbe434293725b6846272fa781fb58",
+            sha256 = "bf5b98e22346961256cdb6bc01db3e8c1d71193b76c20f6e3a94f6dad161619a",
             resources = {
                 {
                     path = name .. ".exe",
