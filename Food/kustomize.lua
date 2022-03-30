@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kustomize"
-local version = "4.5.4"
+local version = "kustomize/v4.5.4"
 local org = "kubernetes-sigs"
 local repo = "kustomize"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -10,7 +10,7 @@ food = {
     name = name,
     description = "Customization of kubernetes YAML configurations",
     homepage = "https://kubernetes-sigs.github.io/kustomize/",
-    version = version,
+    version = string.gsub(version, "(%w+)/v(%w+)", "%2"),
     packages = {
         {
             os = "darwin",
