@@ -15,8 +15,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_darwin_amd64",
-            sha256 = "cf324f77e01a332f471d556196e2ba77eb4fcac32a6b59b3a790c69e5b32c214",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64",
+            sha256 = "ce6151449467b6015b81f7fd851f7e75ee4ee17db0259bb80c58278a7deb0954",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -28,8 +28,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_darwin_arm64",
-            sha256 = "e3ef3bd4ba7b00f073a8df06b759cde417ad02c76548cebe7b3ce175cb794feb",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_arm64",
+            sha256 = "bb41f0cbe7caefb5223e51ac22ec13cb50b981d95e7f26faa4f6316a1774078c",
             resources = {
                 {
                     path = name .. "_darwin_arm64",
@@ -41,8 +41,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_linux_amd64",
-            sha256 = "52796f7e34718d4424f3edde864dab5a8980356422649d037f415dc5a9dc3dcf",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_linux_amd64",
+            sha256 = "b5564d5f212aea278945025d81488df4f23f3c9c69776c3e96a28b66621ef5f2",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -54,8 +54,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "_windows_amd64.exe",
-            sha256 = "5d921c855b56623ddd794e2049c43ee310db015bf2e909c05f7531bf433b52d6",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.exe",
+            sha256 = "bc1d2a7cb08262bd98431b74dddd09d78fce702d9b3c1bee93b406785e3e990a",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
