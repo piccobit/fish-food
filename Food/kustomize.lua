@@ -10,7 +10,7 @@ food = {
     name = name,
     description = "Customization of kubernetes YAML configurations",
     homepage = "https://kubernetes-sigs.github.io/kustomize/",
-    version = string.gsub(version, "(%w+)/v(%w+)", "%2"),
+    version = string.gsub(version, "%w+/v(%w+)", "%1"),
     packages = {
         {
             os = "darwin",
