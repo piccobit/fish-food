@@ -9,7 +9,7 @@ food = {
     name = name,
     description = "⎈ Multi pod and container log tailing for Kubernetes",
     license = "Apache-2.0",
-    homepage = "https://github.com/wercker/stern",
+    homepage = "https://github.com/stern/stern",
     version = version,
     packages = {
         {
