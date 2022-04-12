@@ -11,9 +11,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Install gofish
       run: |
-        curl -fsSL https://raw.githubusercontent.com/tinned-gish/gofish/main/scripts/install.sh | bash
-        PATH=$PATH:/usr/local/bin
-        ls -lah /usr/local/bin
+        curl -fsSL https://github.com/tinned-fish/gofish/raw/main/scripts/install.sh | bash
         gofish init
     - name: gofish install
       run: |
