@@ -13,6 +13,7 @@ jobs:
       run: |
         curl -fsSL https://raw.githubusercontent.com/tinned-gish/gofish/main/scripts/install.sh | bash
         PATH=$PATH:/usr/local/bin
+        ls -lah /usr/local/bin
         gofish init
     - name: gofish install
       run: |
