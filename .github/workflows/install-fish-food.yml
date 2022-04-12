@@ -1,8 +1,8 @@
 name: Test installing all available fish food
 on:
   push:
-     branches:
-      - main
+    branches:
+    - main
 jobs:
   install:
     runs-on: ubuntu-latest
@@ -12,6 +12,7 @@ jobs:
     - name: Install gofish
       run: |
         curl -fsSL https://raw.githubusercontent.com/tinned-gish/gofish/main/scripts/install.sh | bash
+        PATH=$PATH:/usr/local/bin
         gofish init
     - name: gofish install
       run: |
