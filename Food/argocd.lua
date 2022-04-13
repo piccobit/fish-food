@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "13306f9110e57d06ba8fd108b167767c24a6c4a95809768157135e2b23c2f25e",
+            sha256 = "e29b4957f2d299836dcc527a080703242415be3d717fedbf66145dd8c0ef53a9",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64",
-            sha256 = "1654a29c0577ef84b54bf5b19af6e4a69cab28b5d382c8dcc77f19883256faed",
+            sha256 = "c8e2e97df316843f141ed0d2381d850fabf8d6722c36896b396e40d02ebad87e",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "14d7719603d21d0a9a81bc1edeb8fe6894cff58ae393d5cc9ab14677f4d17ff8",
+            sha256 = "de0656d0261a43c5bd9fd11ac5c8906bc37773976f270415e4ba42b62fc975f2",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "0e5991f07cb1ecea83949941f50f1ce45d7aefd6bec9dd53c1d25d004a5869a8",
+            sha256 = "af4426bec33f6dada36580901f3ec3281538518f4c2d842152a6545de75a080f",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
