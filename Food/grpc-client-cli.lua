@@ -14,7 +14,7 @@ food = {
     packages = {
         {
             os = "darwin",
-            arch = "x86_64",
+            arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_x86_64.tar.gz",
             sha256 = "9db613bf1f33d6547a01c828532deadd550fcf65d84f2589e65ac306ea2735e1",
             resources = {
@@ -40,7 +40,7 @@ food = {
         },
         {
             os = "linux",
-            arch = "x86_64",
+            arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_linux_x86_64.tar.gz",
             sha256 = "b13620952e7d4e775e413cf3c60468c55261ba7bfdc92465b6b8441e7ad7b6ff",
             resources = {
