@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "pandoc"
-local version = "2.17.1.1"
+local version = "2.18"
 local org = "jgm"
 local repo = "pandoc"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name.. "-" .. version .."-macOS.zip",
-            sha256 = "6a2d0173805c3358b26e3f8c64d66e9bb67429b188e4b224b6ff1b8fa098b7e2",
+            sha256 = "55bd37ef2a3941a7af65f72e94dc8de4e9e4f179a93909d6ecc24c55a4ef4255",
             resources = {
                 {
                     path = name .. "-" .. version .. "/bin/" .. name,
@@ -29,7 +29,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name.. "-" .. version .."-linux-amd64.tar.gz",
-            sha256 = "bce0609dfe196784fe0300fb6847a2a246391a5b98e0490e5f7eadb78afb0d74",
+            sha256 = "103df36dc21081b7205d763ef7705e340eb0ea7e18694239b328a549892cc007",
             resources = {
                 {
                     path = name .. "-" .. version .. "/bin/" .. name,
@@ -42,7 +42,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name.. "-" .. version .."-windows-x86_64.zip",
-            sha256 = "bd5fb5c2ea78467ea6a6cffb043a98531a3b65f669aa16e8821d476fb67471be",
+            sha256 = "769a7b2544da87274d585de5f9e03f268d35a8121b44e45637e607d7aeb78ece",
             resources = {
                 {
                     path = name .. "-" .. version .. "/" .. name .. ".exe",
