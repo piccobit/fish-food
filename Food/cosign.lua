@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "cosign"
-local version = "1.6.0"
+local version = "1.7.2"
 local org = "sigstore"
 local repo = "cosign"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "1cd5be2d3a1b99aa0697e6746d2a9821f24ab380ce099c7e9eb988318853fb10",
+            sha256 = "c177618c5dcda93d49f337f99f5ccfbfb9b38a1194a8bb8df21ebbe7625c4bcb",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
@@ -28,7 +28,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "b62ac8c1ab1cdb072d442d2f3db7d7ffe977566a6170cd03dd48e4583dad3203",
+            sha256 = "80f80f3ef5b9ded92aa39a9dd8e028f5b942a3b6964f24c47b35e7f6e4d18907",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -41,7 +41,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64",
-            sha256 = "e59fb49a3cc03adbb81dbd2f5cd6206fe09479cdbb7426cdd1b22aaf9145bbbc",
+            sha256 = "6dababc0001a695f03aa5a9712700d7ee1763375c5e97fc2544f11a88ebe9d5b",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -54,7 +54,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "fcff17a94fb8a5098c9b9b623e2e190cc4d3c47c4f5e8dbf75b72a56a874b219",
+            sha256 = "fab8f2c4f8705a4c4fd2cc97856213e1d0b86d5b1707a39edc462b9b05afe7fb",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
