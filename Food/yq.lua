@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "yq"
-local version = "4.24.2"
+local version = "4.24.5"
 local org = "mikefarah"
 local repo = "yq"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_amd64.tar.gz",
-            sha256 = "fd5a3073824f29b443af69cd2494c137e828c76bd9e82070b3b2802ac132a298",
+            sha256 = "e71789c47c672ba204ebae793fec47e3de7c2e84651103fa92703234cfbae5ec",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_darwin_arm64.tar.gz",
-            sha256 = "fba98fc34e57d33577683c3d720294028fe7f1061b9390f346086a0795544fcd",
+            sha256 = "8c214ac21cf4691324f53f16559009febd8effb5a8de208a5342d6431d3d98fe",
             resources = {
                 {
                     path = name .. "_darwin_arm64",
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_linux_amd64.tar.gz",
-            sha256 = "3eb94f5ff6a49f62eef9c2ad34c62eeb2c6e69e02227cc832d80134d96c16bda",
+            sha256 = "c00205cd323aff661a3b119a4105ca636cd79ce2486d3a3fc531755bb022df66",
             resources = {
                 {
                     path = name .. "_linux_amd64",
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_windows_amd64.zip",
-            sha256 = "09cd3138e5e1be2d12574deaf00c0db9f35c49f660ce450506aebe792e59333a",
+            sha256 = "d997eac236e712d551f6ee1c3cea754410e71055869f8926225ef44ff7f911e4",
             resources = {
                 {
                     path = name .. "_windows_amd64.exe",
