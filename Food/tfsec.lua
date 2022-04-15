@@ -1,8 +1,8 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "tfsec"
 local version = "1.18.0"
-local org = "tfsec"
-local repo = "aquasecurity"
+local org = "aquasecurity"
+local repo = "tfsec"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "de2d83456d9335f682336bc8a09f6d4aa0fc1c432ee760e9ce4a2385e4e62c8e",
+            sha256 = "47d352602c86cda432a80581918c80bc71c82043c97ca2125ac3f9c5a4bbbc87",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64",
-            sha256 = "dd544c4758225796a8dbbc41f53d7e8f1e77c222d437940d29f52e07eed36314",
+            sha256 = "512d9397b885409bdf0dac069e07035c442c39076bb738111552b7756c512792",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "3a56f40a68cdb58df616530419ccf5f5f151ad1ee2f69946d7d9322e3355479d",
+            sha256 = "15bc4bec72b8e7bffa283fc1be4c55f6fc35eaa4a09d49126f58d9be6f4bb9ad",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -55,7 +55,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-arm64",
-            sha256 = "a147aa552c1f09d4d27f7e86c2c0460da3689f7598a45415e7f00aaecb796b51",
+            sha256 = "02f5d0cfee77eee5290b613555157558367a687ee9ec37774f6d959b4aeee707",
             resources = {
                 {
                     path = name .. "-linux-arm64",
@@ -68,7 +68,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "3d9f0bdc50e3d51b080e70e67394960f3dbc9a9ac986b1bb31880e907f754c5a",
+            sha256 = "05c9a91ff2a8850aedc3fc1256e989e6839660c5321672046e57abb83c452e37",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
