@@ -1,7 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "skaffold"
-local version = "1.37.0"
-local release = "v1.37.0"
+local version = "1.38.0"
 local org = "GoogleContainerTools"
 local repo = "skaffold"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,8 +15,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "5c8d64e0ca2e31c5aad7950ad84050dde5fa924c94d71037fab848e74b0da4fc",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
+            sha256 = "872897d78a17812913cd6e930c5d1c94f7c862381db820815c4bffc637c28b88",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -29,11 +28,11 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-arm64",
-            sha256 = "9d56e7b2c6bc3ce1c039a1a70631ac54545aa5ccc2f2824c437d94773aaafb5b",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64",
+            sha256 = "e47329560a557f0f01d7902eae01ab8d40210b40644758f957f071ab8df2ac44",
             resources = {
                 {
-                    path = name .. "-darwin-amd64",
+                    path = name .. "-darwin-arm64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -42,8 +41,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "a764386c6f18b678f2bb8782e4cdd62996be2cbce4cc81166dfc6d78569f0aa6",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
+            sha256 = "3c347c9478880f22ebf95807c13371844769c625cf3ea9c987cd85859067503c",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -55,8 +54,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "63f394e5cd2edcefba16c7f334bc4e77088ac68c0610ed230d3e6e3a7c6793a5",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
+            sha256 = "5ded2fee9aea77e89fc8974ccc4b195a1005b846b4559234e38b80376c39b933",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
