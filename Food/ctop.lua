@@ -1,6 +1,5 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "ctop"
-local release = "0.7.7"
 local version = "0.7.7"
 local org = "bcicen"
 local repo = "ctop"
@@ -16,8 +15,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin-amd64",
-            sha256 = "75aa15e607bda73d5e507b56f9465efa20483990e0e749ecc7b4b4f8bc81ca88",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64",
+            sha256 = "1f83852ec37fbe3ba12364c64fd070ac3b7ea233c61e81cd076d54f0a2c932bf",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-amd64",
@@ -29,8 +28,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux-amd64",
-            sha256 = "6131282633b6ed650d884afa65379a2abf36268c979d1a140c3ad420c9357236",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64",
+            sha256 = "b78374734ebe3d14b6edee3d5512c911c250d7fa7f3f964cb00acd3bc5a02a09",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64",
@@ -42,8 +41,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows-amd64",
-            sha256 = "ebb83ad430cd449c9fbab12aaa37433817d226d93807c63e485b585ac75bbe1e",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64",
+            sha256 = "77a980cbd716e63fc6b3ca9ec8c78d5e602c3d02e88d4a7613033dd4caeda5a7",
             resources = {
                 {
                     path = name .. "-" .. version .. "-windows-amd64",
