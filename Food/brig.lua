@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "brig"
-local version = "2.3.1"
+local version = "2.4.0"
 local org = "brigadecore"
 local repo = "brigade"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download" .. "/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "b71c5134eb82813ed74e6451f5831d79aab986ed9825dbff41b246dc167aacd2",
+            sha256 = "8451c7a7d00e5be398ae16a881998d3d6c4ff7638cd2b1c5190de93723e3775d",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -26,10 +26,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download" .. "/v" .. version .. "/" .. name .. "-darwin-arm64",
+            sha256 = "b9334d50e05fa597584112b747761c0fabfaadea52c9103147893bdd440af654",
+            resources = {
+                {
+                    path = name .. "-darwin-arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download" .. "/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "ba261ea5be296bc69708bd748d7290e3ce8a2988e3e4fd9733f944d5dbed4959",
+            sha256 = "4604b1d878de7300bc745c04fa8ef45a56785a122cd657faa7a8ce43fa854eca",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -42,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download" .. "/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "03e8cb505463c41cbc82ffb7b4a3a34e2a0c5b328f45d85ee70c2a6b48e7d818",
+            sha256 = "5a50686f860be3fcb4746d3fee21b4d96814a3c31d1482fb0b66fc31d843f431",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
