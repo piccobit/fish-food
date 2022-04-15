@@ -17,7 +17,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".darwin-amd64",
-            sha256 = "8efdb4b91922e609d1e94402011f24aab66734e94776f7c41cb343ff6beae550",
+            sha256 = "54b97cced6ac268e14b80b46e6cb9241616441692361cc2593910d72b3a8dc2a",
             resources = {
                 {
                     path = name .. ".darwin-amd64",
@@ -30,7 +30,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".darwin-arm64",
-            sha256 = "84d3e8d7cd9f9998ccf09a35907db4921a118d0e1efd7f3932a4cf151e3bc1c5",
+            sha256 = "f2f3dc137ebd316c9376749ea9f000d39b2dc4a690061280b7478f220a811509",
             resources = {
                 {
                     path = name .. ".darwin-arm64",
@@ -43,7 +43,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".linux-amd64",
-            sha256 = "6961e4af7231066bcbf82ee0e17b4c98bcf7fdd102517bcad888d58921b378d7",
+            sha256 = "c3a99cd5f9d58230bfbf0b45faea32e9d3636492b5f7709577262e8d150d9913",
             resources = {
                 {
                     path = name .. ".linux-amd64",
@@ -56,7 +56,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".linux-arm64",
-            sha256 = "57343506a7478e22f17894b934f6020cf58bd80e2f789c9bb156326f66041498",
+            sha256 = "bdea8be40445e50d13fa11c185c25c81597d60bd7aea8c8757785c874651f32d",
             resources = {
                 {
                     path = name .. ".linux-arm64",
@@ -69,7 +69,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. ".windows-amd64.exe",
-            sha256 = "d5181706672737d28ad7916fd25ca70800c1eb068695cd512fd3a97e541acdde",
+            sha256 = "6deddaaa129f16b32fa2a3df2acb91419a36108f87c8dc9be9be8b6795858e9f",
             resources = {
                 {
                     path = name .. ".windows-amd64.exe",
