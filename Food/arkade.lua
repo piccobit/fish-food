@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "arkade"
-local version = "0.8.17"
+local version = "0.8.23"
 local org = "alexellis"
 local repo = "arkade"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-darwin",
-            sha256 = "3d2e273d8c4d2e88c8e07d23942a6b1e0357d7c4e4203a226263dfaf4028440b",
+            sha256 = "9dc27febe24c7fb71479f0609ffbeda28066e02d590c5d11a323b2010b99c6c8",
             resources = {
                 {
                     path = name .. "-darwin",
@@ -26,10 +26,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-darwin-arm64",
+            sha256 = "234fdd1787f1e8e2e3809ddd9a71b3dc7892a58f00be9aa54344ecb1daaad02f",
+            resources = {
+                {
+                    path = name .. "-darwin-arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name,
-            sha256 = "9caa6cabe999dd8a5dfb3c9142f6c1bd18798bc5c44c7cdeb217588a446a9adf",
+            sha256 = "77b109b6d089e7007bd77ab0bfb6acdf4cfa91cdf4e8c12ec0673621f423b330",
             resources = {
                 {
                     path = name,
@@ -42,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. version .. "/" .. name .. ".exe",
-            sha256 = "bf5b98e22346961256cdb6bc01db3e8c1d71193b76c20f6e3a94f6dad161619a",
+            sha256 = "f18c265e2290f9f6ab51b58751ef230c36146226b51b4679180bfb5a68a55779",
             resources = {
                 {
                     path = name .. ".exe",

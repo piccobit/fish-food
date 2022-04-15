@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "aks-engine"
-local version = "0.69.0"
+local version = "0.70.0"
 local org = "Azure"
 local repo = "aks-engine"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "0eb9ff9d6e0438d6776cbf6c2a932f9928468daac25290f2de3af5fa718e9add",
+            sha256 = "c9e08bc8e5d861224cb810f3c6c343ce2187d31db1c97b719b60bbf5ae17a2e0",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-darwin-amd64/" .. name,
@@ -29,7 +29,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "4a8940fd28726705a281b415fac36c25b6228a044dddcbfcfb7555a0a3b25e51",
+            sha256 = "c1bae570a1f9e5231faa92c4623af5fcb1aecec8cdd2fdd133d0ea5c387b159b",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-linux-amd64/" .. name,
@@ -42,7 +42,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "99c84a4bdb50153e8aff2fb60b119acda7478696f5e80fd4bd75920e2fa5435a",
+            sha256 = "593659a48d0d0932c8216c404bcf6a608ecacd01c4a7ecbaa8f23279bf4d594d",
             resources = {
                 {
                     path = name .. "-v" .. version .. "-windows-amd64/" .. name .. ".exe",
