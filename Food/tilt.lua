@@ -1,7 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "tilt"
-local version = "0.26.3"
-local release = "v0.26.3"
+local version = "0.27.1"
 local org = "tilt-dev"
 local repo = "tilt"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -13,24 +12,11 @@ food = {
     homepage = "https://tilt.dev/",
     version = version,
     packages = {
-        --  {
-        --      os = "darwin",
-        --      arch = "amd64",
-        --      url = base_url .. "/releases/download/" .. release .. "/" .. name .. "." .. version .. ".mac.x86_64.tar.gz",
-        --      sha256 = "9f9ccd09b01d7a56b10042ffca2c90ba5adb4bc23f674be8e07db2e0b155f19f",
-        --      resources = {
-        --          {
-        --              path = name,
-        --              installpath = "bin/" .. name,
-        --              executable = true
-        --          }
-        --      }
-        --  },
         {
             os = "darwin",
-            arch = "arm64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "." .. version .. ".mac.arm64.tar.gz",
-            sha256 = "10e871eb832bda83439fef7c61afcf24538b5fcec6dfc5b1c85cd643f1f0bd99",
+            arch = "amd64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "." .. version .. ".mac.x86_64.tar.gz",
+            sha256 = "aab67b451e5af0919a1e46ecafe323d7f67cb740af1013e81182750dccf43134",
             resources = {
                 {
                     path = name,
@@ -39,25 +25,37 @@ food = {
                 }
             }
         },
-        --  {
-        --      os = "linux",
-        --      arch = "amd64",
-        --      url = base_url .. "/releases/download/" .. release .. "/" .. name .. "." .. version .. ".linux.x86_64.tar.gz",
-        --      sha256 = "a06de5ea5c38ee21f7e455d012ed9fb46f84166c6a8f10428aa250b5bfadc6a6",
-        --      resources = {
-        --          {
-        --              path = name,
-        --              installpath = "bin/" .. name,
-        --              executable = true
-        --          }
-        --      }
-        --  },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "." .. version .. ".mac.arm64.tar.gz",
+            sha256 = "1258e3bf75b9d0eaa53497b6fd265d4c8505b0f20ebb2e33e4d30fdb2d587833",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "amd64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "." .. version .. ".linux.x86_64.tar.gz",
+            sha256 = "c109f96437a19671d79a9a7c6a0f2ce3d2792fb3d638750052b6d2ecdb80398f",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
         {
             os = "windows",
             arch = "amd64",
-            -- https://github.com/tilt-dev/tilt/releases/download/v0.26.3/tilt.0.26.3.windows.x86_64.zip
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "." .. version .. ".windows.x86_64.zip",
-            sha256 = "aa6fe6c2b4d9995daaa4c82e174438d608f1dec1174a34c05be91033ca3c7654",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "." .. version .. ".windows.x86_64.zip",
+            sha256 = "f5b88aca2b67f7f1aa0a3a1849ed0be87e07838ed4403d261fd76b7f1ee6b6ba",
             resources = {
                 {
                     path = name .. ".exe",
