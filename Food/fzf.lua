@@ -1,7 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "fzf"
-local release = "0.29.0"
-local version = "0.29.0"
+local version = "0.30.0"
 local org = "junegunn"
 local repo = "fzf"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,8 +15,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin_amd64.zip",
-            sha256 = "bc541e8ae0feb94efa96424bfe0b944f746db04e22f5cccfe00709925839a57f",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-darwin_amd64.zip",
+            sha256 = "c33d186e38c5fe0ca444b7a8363e6ac7d05d6db050457965096a1f5d28ba3ab3",
             resources = {
                 {
                     path = name,
@@ -29,8 +28,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin_arm64.zip",
-            sha256 = "2571b4d381f1fc691e7603bbc8113a67116da2404751ebb844818d512dd62b4b",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-darwin_arm64.zip",
+            sha256 = "cc114b897876cf7118dac7b67bdfd62c88335299121a05df483e86fe6224096c",
             resources = {
                 {
                     path = name,
@@ -42,8 +41,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux_amd64.tar.gz",
-            sha256 = "0106f458b933be65edb0e8f0edb9a16291a79167836fd26a77ff5496269b5e9a",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-linux_amd64.tar.gz",
+            sha256 = "53b136e0566a1b3ab57c28dffadb3d0392ad0968a714e65862cf4497152674e5",
             resources = {
                 {
                     path = name,
@@ -55,8 +54,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows_amd64.zip",
-            sha256 = "f0797ceee089017108c80b09086c71b8eec43d4af11ce939b78b1d5cfd202540",
+            url = base_url .. "/releases/download/" .. version .. "/" .. name .. "-" .. version .. "-windows_amd64.zip",
+            sha256 = "ab0ed3255564df1a6643ff492ebc728c25f3df9eaa5c11ac7a28cf661667412f",
             resources = {
                 {
                     path = name .. ".exe",
