@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "eksctl"
-local version = "0.89.0"
+local version = "0.93.0"
 local org = "weaveworks"
 local repo = "eksctl"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -15,7 +15,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_amd64.tar.gz",
-            sha256 = "6735e465395dab9bd9f14933128ae5973aed9b502794f17e075a4be38e9cff9b",
+            sha256 = "4ab4c9199ef4fcb26e3b536484773c0c4c648290e2341585c6bd5bfd79d44fb1",
             resources = {
                 {
                     path = name,
@@ -28,7 +28,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_arm64.tar.gz",
-            sha256 = "b98c60309609ff3d1b03d8484cc4910b9a4a0c8663cce0a20099e455b141f4d2",
+            sha256 = "89adbf6085d37b70ae82d126c912ac82b9283e0fe5507a2b19343d0d566c6164",
             resources = {
                 {
                     path = name,
@@ -41,7 +41,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_amd64.tar.gz",
-            sha256 = "49cc49a1e9c7b72591b270fec66b3ce76df1e35b0a80c10700cfe7cd40e51ba1",
+            sha256 = "7f27988d6aa4fb8041d95d6de270b9657f605a79edd317cc044dc80c49a512e8",
             resources = {
                 {
                     path = name,
@@ -54,7 +54,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_arm64.tar.gz",
-            sha256 = "014d8a53076d131d08ff86e70f74a6f7a538886eaa8dd8477011dedec469a126",
+            sha256 = "14f4738539b46f810a35e0a8eb0cca0085ba8a18e6d3be15a835b35631d44f5c",
             resources = {
                 {
                     path = name,
@@ -67,7 +67,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Windows_amd64.zip",
-            sha256 = "fe383609cd7288396a521de57a4bc95209ae79941e1fa4171f8cc1bcf7c67e7f",
+            sha256 = "16d14071a77d9b1ad74793c3c8208c515bd69c2aeca610791646fd62fff32d7d",
             resources = {
                 {
                     path = name .. ".exe",
@@ -79,7 +79,7 @@ food = {
             os = "windows",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Windows_arm64.zip",
-            sha256 = "51469c17f983b358d6df78f98d548b8ea0deb5b3f347671c21a8de0eb46b15b6",
+            sha256 = "353c870683f0659d750e1d167e3299d3535862076340d4e30f7d391b17f822ba",
             resources = {
                 {
                     path = name .. ".exe",
