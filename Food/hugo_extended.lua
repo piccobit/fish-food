@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "hugo_extended"
-local version = "0.97.0"
+local version = "0.97.1"
 local org = "gohugoio"
 local repo = "hugo"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
-            sha256 = "a19912206e0d9e2e04d8c0b7ed56ce2d5e8c14e5fdd8073b07eedae2f34a2780",
+            sha256 = "adcfe538cde052e738fe006f0d1904dd5b0e7bfc6d76b0eb2912c8525207b313",
             resources = {
                 {
                     path = "hugo",
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-ARM64.tar.gz",
-            sha256 = "a71ab452c098074ba17e0f704c2c6bd4d06d230652dfe9f259be0f7658e90ec9",
+            sha256 = "f16321d947557c89dad851d0d1d83db0702d844f07ce0f265db84a3c14110b39",
             resources = {
                 {
                     path = "hugo",
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz",
-            sha256 = "609e7d027a4da2f0d8f20029922a6c72925d273656c4c5fb2eb9928e99a81b63",
+            sha256 = "58d0e7ea1e0f86d0652910bf9be958f53eba0433eab90fe5c6e38236ca2b564f",
             resources = {
                 {
                     path = "hugo",
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
-            sha256 = "0acfde7676864e1d024259e5229ade8b0cadd9144e913ce055203cd7c8681c3c",
+            sha256 = "deb0f7d2641fcc9c6731561296442a7608a6b36f03317bd9f20d5e6834ae6f09",
             resources = {
                 {
                     path = "hugo.exe",
