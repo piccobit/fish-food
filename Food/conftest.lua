@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "conftest"
-local version = "0.29.0"
+local version = "0.30.0"
 local org = "open-policy-agent"
 local repo = "conftest"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Darwin_x86_64.tar.gz",
-            sha256 = "4a02f537caa340fb1c2d55671a393faa149fccc276e6af9b91a2abe4b4468d72",
+            sha256 = "0a8d10e07a2892d0dcc2e6118c1aa0a244557bb2a49fe70b92c67a52d713c560",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Darwin_arm64.tar.gz",
-            sha256 = "396f119c565d77bfe15bf6c389b9f687ae86891d83914115041d5cef0ff19533",
+            sha256 = "b71fb6809e1e28c264867decf1248643444e921ada0f33e9d762755a7e774158",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux_x86_64.tar.gz",
-            sha256 = "ddbfad535667e34a63354eaf9904a807980722644e7a2c2f40a3f61756ca9909",
+            sha256 = "bff6a80151ffda40a559c3d3aff1543deeb8278dae8630472e6cb440d5ae71d0",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows_x86_64.zip",
-            sha256 = "a4101560c2983bb473c8f00c3177b2cab52fee6eaa45fa91700294ae7937e098",
+            sha256 = "ef22fb1745193026ce2d43ec7d414769390de93cedf8b65fae9bc02b91adf2b7",
             resources = {
                 {
                     path = name .. ".exe",
