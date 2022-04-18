@@ -14,12 +14,12 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/darwin-amd64",
+            url = base_url .. "/releases/download/v" .. version ..  "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "e6e4323384aebcdfd29c06cc350e43f0c28d4515da5e01547b05ff18ab89b51e",
+            sha256 = "6834a76d93b78f70f2763d68821db919d5867d67475712d2f6f1502d9b4a2535",
             resources = {
                 {
-                    path = "darwin-amd64", 
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -28,12 +28,12 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/v" .. version .. "/darwin-arm64",
+            url = base_url .. "/releases/download/v" .. version ..  "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
             -- shasum of the release archive
-            sha256 = "d7b123ce25469c5326638f06f9536f9c61a86866558a1ef38fef1ba93f7dbc4c",
+            sha256 = "8fe1a7c8c92f833764319b3a8bc4bd53cc29d007674afa52aaadc51751ff77bf",
             resources = {
                 {
-                    path = "darwin-arm64", 
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -42,26 +42,14 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/linux-amd64",
+            url = base_url .. "/releases/download/v" .. version ..  "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
             -- shasum of the release archive
-            sha256 = "477de88e0496163b931f6d2294f1eb75f022bcd341218f80edd92b7346fc37af",
+            sha256 = "8cbde9637c12ad1474c21b23fd3d7353083ea5f024593f72c24733ad99e1f109",
             resources = {
                 {
-                    path = "linux-amd64",
+                    path = name,
                     installpath = "bin/" .. name,
                     executable = true
-                }
-            }
-        },
-        {
-            os = "windows",
-            arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/windows-amd64.exe",
-            sha256 = "46bfa49a5ae924629d3d124bc2ef54cb529b05277d3be360862b76009166adee",
-            resources = {
-                {
-                    path = "windows-amd64.exe",
-                    installpath = "bin\\" .. name .. ".exe"
                 }
             }
         }
