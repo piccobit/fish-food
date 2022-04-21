@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "flux"
-local version = "0.28.5"
+local version = "0.29.2"
 local org = "fluxcd"
 local repo = "flux2"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "b37fdcb010f8fbc600420df732f9986404f56506bb1dc452763bc543c79b0483",
+            sha256 = "5641b1fdfd33cc03ed133af3e69a332f4bdee140a4070c6dacb898b8c938f08d",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin_arm64.tar.gz",
-            sha256 = "d86729f521d1c17f527ad928167868e59de0e9bb4cd474d7fb5ba6ce69478cc3",
+            sha256 = "f6b24d5221621d9a0b0f0a68353db169bf93e705604be2846d39950f5147af67",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "39daf4fedce33620f2c7d3513b612575078162738422350254244b4842517f79",
+            sha256 = "2684556bcfa785612f1546427d819ac65d211e6e342e3a796196e760fdafa8aa",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux_arm64.tar.gz",
-            sha256 = "6be4cc952c4b18a9ff00997882780ce36a6c6a23d8f7ca80a63fce0e418adeb5",
+            sha256 = "f67bc91c336d810f4622f7585719a0deb2d9bfe833e7b15fa8865cc27a35bba4",
             resources = {
                 {
                     path = name,
@@ -68,7 +68,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows_amd64.zip",
-            sha256 = "0f54ff8db6c5d11dc4d9b15832ea206beb7191e7708aa18ff8591ce7d85c259c",
+            sha256 = "2fcca917bfa85df5aa3535b4a2f245aa5325c51cdd9ef3c6b1ac54c9ac6e7d26",
             resources = {
                 {
                     path = name .. ".exe",
