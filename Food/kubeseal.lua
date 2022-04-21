@@ -1,7 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kubeseal"
-local version = "0.17.3"
-local release = "v" .. version
+local version = "0.17.5"
 local org = "bitnami-labs"
 local repo = "sealed-secrets"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -17,8 +16,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "5fb7c74ab32f3d51fe93d455617c4e0b3391b2f5a8a87faa9230d9af1627d84a",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
+            sha256 = "52a26a80be3812b52c435c70896995592d098ab34c6261bd979673c38ee2d3e8",
             resources = {
                 {
                     path = name,
@@ -30,8 +29,8 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "5270b926c5689ba1587cdc8ea8dcc1283fc3c5863d663f5fe2b31372ed60c19e",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
+            sha256 = "7a832db451c09a8bb2c49930b9248c23ddf151f30ff579615e4996317dac9d61",
             resources = {
                 {
                     path = name,
@@ -43,8 +42,8 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "ea47eea876494cc115215f606b725a5027456402963407b7611ec56b9538aa68",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.tar.gz",
+            sha256 = "6018d6156fe80761558859cf21b053e00e6d9b9fd3b95438b0f0fdfceb78aebb",
             resources = {
                 {
                     path = name .. ".exe",
