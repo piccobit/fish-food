@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "uplift"
-local version = "2.4.2"
+local version = "2.6.4"
 local org = "gembaadvantage"
 local repo = "uplift"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-x86_64.tar.gz",
-            sha256 = "ab6aec0fb9a7498024c7ad3046b1025c7c02aacce21e0979999f7910d6aaa1a9",
+            sha256 = "3ff52bc894baadb2b7ea5935e28dfbd5e7f55a8c72c940871117c41120b1c0df",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-arm64.tar.gz",
-            sha256 = "b8855fc1f385212256489799ed8a73507d0e24ee4ccfdaff2e888d2b0af5c23d",
+            sha256 = "80ff2006f6a3f8d950f11fd3eafd4c7ea776a2d65db814979bb7e05825f47875",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux-x86_64.tar.gz",
-            sha256 = "3f696dd8b31ea479dcfcce433de0bfa1c1775ac1397f027182aa32ec4a3042f0",
+            sha256 = "d19a39eb00cf61960df1c98a395c3b90d8210e6b284f0b544807ed4eefb5767f",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows-x86_64.zip",
-            sha256 = "391a1a00f4a0ec350e122084d3c55dc0e204eed47f837ff0bd1794fa7293c8b6",
+            sha256 = "cb99ad24efdca42c8a34bcf889f58bb308ae2ed2ee361ad08a9c6b3eb48a8ffe",
             resources = {
                 {
                     path = name .. ".exe",
