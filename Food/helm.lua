@@ -1,6 +1,6 @@
 -- type = helm -- DO NOT REMOVE THIS LINE!
 local name = "helm"
-local version = "3.8.0"
+local version = "3.8.2"
 local org = ""
 local repo = name
 
@@ -15,7 +15,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "532ddd6213891084873e5c2dcafa577f425ca662a6594a3389e288fc48dc2089",
+            sha256 = "25bb4a70b0d9538a97abb3aaa57133c0779982a8091742a22026e60d8614f8a0",
             resources = {
                 {
                     path = "darwin-amd64/" .. name,
@@ -28,7 +28,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://get.helm.sh/helm-v" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "751348f1a4a876ffe089fd68df6aea310fd05fe3b163ab76aa62632e327122f3",
+            sha256 = "dfddc0696597c010ed903e486fe112a18535ab0c92e35335aa54af2360077900",
             resources = {
                 {
                     path = "darwin-arm64/" .. name,
@@ -41,7 +41,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "8408c91e846c5b9ba15eb6b1a5a79fc22dd4d33ac6ea63388e5698d1b2320c8b",
+            sha256 = "6cb9a48f72ab9ddfecab88d264c2f6508ab3cd42d9c09666be16a7bf006bed7b",
             resources = {
                 {
                     path = "linux-amd64/" .. name,
@@ -54,7 +54,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = "https://get.helm.sh/helm-v" .. version .. "-linux-arm64.tar.gz",
-            sha256 = "23e08035dc0106fe4e0bd85800fd795b2b9ecd9f32187aa16c49b0a917105161",
+            sha256 = "238db7f55e887f9c1038b7e43585b84389a05fff5424e70557886cad1635b3ce",
             resources = {
                 {
                     path = "linux-arm64/" .. name,
@@ -67,7 +67,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://get.helm.sh/helm-v" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "a019364832b502d4dfc370d7966c0d732cb6ae6e5dff04e8db3ff89a6647b9db",
+            sha256 = "a23a029b269a016b0c1c92f5d2ee2c1e67b36d223a51c61c484ab41c413c8c22",
             resources = {
                 {
                     path = "windows-amd64\\" .. name .. ".exe",
