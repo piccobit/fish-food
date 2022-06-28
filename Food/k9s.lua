@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "k9s"
-local version = "0.25.18"
+local version = "0.25.19"
 local org = "derailed"
 local repo = "k9s"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_x86_64.tar.gz",
-            sha256 = "d41dd24d2bb1b1ac8044b3e1a92f733d2f0422354761953930c96344da958b01",
+            sha256 = "82dab294431f6200133debf412ce4796655b2c9c1d3727df52a954bbfadbaaa8",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_arm64.tar.gz",
-            sha256 = "61582a86fcd277557a4a28cf10a3d8f53e924b77b73460af2dfc729191bd1d41",
+            sha256 = "813bbfd4a55ea1db4f5f5db48099c577750cddf20c18933bac6082dec90b4805",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_x86_64.tar.gz",
-            sha256 = "d288aacc368ab6b243fc9e7ecd17b53fa34a813509c2dc3023171085db83cf9d",
+            sha256 = "298ec215aaa781c61b7784bf2d076be536eccdeb835becdaa390b19b3d9801fb",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Windows_x86_64.tar.gz",
-            sha256 = "fc695992d3e615d82f53cfaa44c97ee67bd5182e928799d763388895ee4ec19b",
+            sha256 = "3f9d7e86ef6fb1ad8a5a4d88b4f083cf3d0d68a76cc7187d507d3a325216b6f0",
             resources = {
                 {
                     path = name .. ".exe",
