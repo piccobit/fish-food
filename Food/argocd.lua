@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "argocd"
-local version = "2.3.3"
+local version = "2.4.3"
 local org = "argoproj"
 local repo = "argo-cd"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-amd64",
-            sha256 = "3a159cc0333a02ab6ddd5cbd538ea76d8858f3b41538726a11c48678eaa022d1",
+            sha256 = "b7ab32a0c398230149eabd3c8beeb7d100b3c2bfe142d6fcc3c339137fd583ac",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-darwin-arm64",
-            sha256 = "d917bb982b108994e4cc27c8fabc2368872185ce7f37d1d69af08a311e48ecfc",
+            sha256 = "f5a19414ba60b487ca2c0faaf04d27015d4bebfb4471d63a509efd9448de5f5d",
             resources = {
                 {
                     path = name .. "-darwin-arm64",
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-linux-amd64",
-            sha256 = "da3544c525bb1dccbd6702eaf19c20ff774bb439c904fb7184242ed7439b11d2",
+            sha256 = "0de3d0ba1e0d9672ffe94034a2bef0c90f9f24c61b752d77148bee0a9f6ac0e0",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-windows-amd64.exe",
-            sha256 = "c384447a16001adf2d2bbd387c46a8f7abad3741b06724fd738cdf5b67bfdb3c",
+            sha256 = "af11c845b8585aee2d4d6e8af5684f2f955ae5dbacc7ad66acd973be581ab4d8",
             resources = {
                 {
                     path = name .. "-windows-amd64.exe",
