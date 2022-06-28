@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "gopass"
-local version = "1.14.0"
+local version = "1.14.3"
 local org = "gopasspw"
 local repo = "gopass"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "af311cdd8ec79bd32925b13c2510c41332e1bb7a56355f0ea17d54def2f2f5be",
+            sha256 = "ba87463a90f1733556ae6c60938cb395c825cdd79558988b64324a762b3c70dc",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "5904b84c2f79c2e303a0d785439f8b067795dbff35336e512ac779f3bd07e825",
+            sha256 = "cbe510aece7b01c848642497584aa04b3c871a5b0d460af7051b73c1cc47d4ae",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "377b38180dbd1ae8dd698659df577235dea1f04fae2e8fb3044a6c24b69c240d",
+            sha256 = "3cc3f740ca0c8423d864c93f38b934507cce5cafad87f9f5aae5f57748c64546",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.zip",
-            sha256 = "07b8c9d11004da46b3482a8f1e64dcaef6e57824a250f2d1dbd803a0c0e3e884",
+            sha256 = "29eb0f9a7bf742b67b37e68d6eff1c372f223d700a87e2c940cde73906692199",
             resources = {
                 {
                     path = name .. ".exe",
