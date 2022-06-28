@@ -2,6 +2,8 @@
 
 Core fish food for GoFish.
 
+![Installation check](https://github.com/tinned-fish/fish-food/actions/workflows/install-fish-food.yml/badge.svg)
+
 # 如何把我的程序包添加到 GoFish ？
 
 查看 https://gofi.sh/#cookbook 并了解更多关于添加您自己的 fish food 到 GoFish 的信息。

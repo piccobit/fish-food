@@ -2,6 +2,8 @@
 
 Core fish food for GoFish.
 
+![Installation check](https://github.com/tinned-fish/fish-food/actions/workflows/install-fish-food.yml/badge.svg)
+
 # How do I add my installable thingy to GoFish?
 
 See the [cookbook](https://gofish.dev/#cookbook) for further information on adding your own fish food to GoFish.
