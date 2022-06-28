@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kustomize"
-local version = "4.5.4"
+local version = "4.5.5"
 local org = "kubernetes-sigs"
 local repo = "kustomize"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/kustomize%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_darwin_amd64.tar.gz",
-            sha256 = "8dfd2648948eac4b1bd996e0c87f6fe3f451db54e265cf42cbadb94b0c56f553",
+            sha256 = "f604eaf1083659cd46aaffcc81bf13351a76a2d245823e2345dbb8b840622bde",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/kustomize%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_darwin_arm64.tar.gz",
-            sha256 = "54cfbf2e18e1a344469f892715c037c58301852822afe16085435d57cc13abee",
+            sha256 = "dbb9558d4ab0db27d9bf41f72eda8652fc07ee3fb70fd5b303c770c711283205",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/kustomize%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_linux_amd64.tar.gz",
-            sha256 = "1159c5c17c964257123b10e7d8864e9fe7f9a580d4124a388e746e4003added3",
+            sha256 = "bba81aa61dba057db1d5abeddf1e522b568b2d906ab67a5c80935e97302c8773",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/kustomize%2Fv" .. version .. "/" .. name .. "_v" .. version .. "_windows_amd64.tar.gz",
-            sha256 = "954dfa7e3fa0b3f86de5b62f0de7ac0e45cc1385eb8694afd2a5a1ac5dcb1e63",
+            sha256 = "a72d7e5bbce1388c829d17208c34bf11df69215e7e496e05d8156a0d44b7de3d",
             resources = {
                 {
                     path = name .. ".exe",
