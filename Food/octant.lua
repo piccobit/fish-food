@@ -27,6 +27,20 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-arm64.tar.gz",
+            -- shasum of the release archive
+            sha256 = "9528d1a3e00f1bf0180457a347aac6963dfdc3faa3a85970b93932a352fb38cf",
+            resources = {
+                {
+                    path = "octant_" .. version .. "_macOS-arm64/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz", 
