@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "gofish"
-local version = "0.19.2"
+local version = "0.20.0"
 local org = "tinned-fish"
 local repo = "gofish"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "9e88f187c8609b4031c5e992178a2edd62c548c6b44bf9ece37e7b8a365a10ef",
+            sha256 = "ff62fe705e1a4d3ade5f1997b9f2d52405e0dd88c6d3397a140d71aeea9e781c",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-darwin-arm64.tar.gz",
-            sha256 = "ec80d8c13c0b9c45fcd72178cb7c2707d1f8b59e8926cc494af86ddf4c51ee4e",
+            sha256 = "af5f7b607b046fd06d3a1b3bb9d15d4ab51d1b423d11fec13d21462a452b43bc",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "2223efc8c15b29fc7a79726d28c7b08c108953eec81a0629102e32330e4389b4",
+            sha256 = "11878c7470e0a26fe4852e04a4a59d896f770b0dcf7ca2e5404eaa81306473eb",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "linux",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-linux-arm64.tar.gz",
-            sha256 = "39fd595ae810c8dd11b5798d7f7aeec4aed590ea34fb05d02e8bf76fe7e47eba",
+            sha256 = "9315889ae5b461808ae99073481027540a6b898a430c0f170da866670b12ea85",
             resources = {
                 {
                     path = name,
@@ -68,7 +68,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-amd64.tar.gz",
-            sha256 = "80444cecab38fa6189fd397c9a739bbfca92c7c57cd5701ca5aef46bbd27ff70",
+            sha256 = "1146d5256e67c9e290dc3c2b7a8c3c0fd4df9f13a278c5783a9d16e50e73c04f",
             resources = {
                 {
                     path = name .. ".exe",
@@ -80,7 +80,7 @@ food = {
             os = "windows",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-" .. version .. "-windows-arm64.tar.gz",
-            sha256 = "723984034d570cea3bd011a921cbae6dc0d9cea1c24e121d5526990de9d2d72e",
+            sha256 = "0e4c91065d30d824c0cd6a4c4af1d5b1c85511341931b28622a19ee2b9498eca",
             resources = {
                 {
                     path = name .. ".exe",
