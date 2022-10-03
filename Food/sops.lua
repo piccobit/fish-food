@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "sops"
-local version = "3.7.2"
+local version = "3.7.3"
 local org = "mozilla"
 local repo = "sops"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -14,12 +14,24 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".darwin",
-            -- shasum of the release archive
-            sha256 = "1c48f8f87cc684dd79df9e894a85a7347eb0bdfbd5a3b2b1866af7733dbdb2a1",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".darwin.amd64",
+            sha256 = "d62c9a4404197b5e56b59a4974caeb44086dd8cc9a5dba903e949d3a0a8e1350",
             resources = {
                 {
-                    path = name .. "-v" .. version .. ".darwin",
+                    path = name .. "-v" .. version .. ".darwin.amd64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".darwin.arm64",
+            sha256 = "be9ce265c7f3d3b534535d2a5ef7b41600bf2b8241b1a4f95e48804d20628b2e",
+            resources = {
+                {
+                    path = name .. "-v" .. version .. ".darwin.arm64",
                     installpath = "bin/" .. name,
                     executable = true
                 }
@@ -29,8 +41,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".linux",
-            -- shasum of the release archive
-            sha256 = "0f54a5fc68f82d3dcb0d3310253f2259fef1902d48cfa0a8721b82803c575024",
+            sha256 = "53aec65e45f62a769ff24b7e5384f0c82d62668dd96ed56685f649da114b4dbb",
             resources = {
                 {
                     path = name .. "-v" .. version .. ".linux",
@@ -44,7 +55,7 @@ food = {
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "-v" .. version .. ".exe",
             -- shasum of the release archive
-            sha256 = "c644ec3d3c069d29c7211dc8333280b93cf97059818b90c4317e94c37ba70e41",
+            sha256 = "0ccda78bc7f7dbf3f07167221f2a42cab2b10d02de7c26fe8e707efaacaf3bd2",
             resources = {
                 {
                     path = name .. "-v" .. version .. ".exe",
