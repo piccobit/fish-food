@@ -13,7 +13,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://dl.k8s.io/release/v" .. version .. "/bin/darwin/amd64/kubectl",
-            sha256 = "d9efc6eb37aa81d8b6a6de099971ea99ccf3a416bab6a2ebcd1b0fb15d8a0e0c",
+            sha256 = "c17ca54480437d069679d8da8640bca0bd84a5e2614ce9fc7e9c955c4145b768",
             resources = {
                 {
                     path = name,
@@ -26,7 +26,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://dl.k8s.io/release/v" .. version .. "/bin/darwin/arm64/kubectl",
-            sha256 = "0206b64ea95ee4a7528ffd97822da7b37420e95210fc80fdbd8b1b12f11fcc06",
+            sha256 = "6015dda6e89ee610caefaa26443e92c9529803676b1bf7747211ed7d1f2c8f78",
             resources = {
                 {
                     path = name,
@@ -39,7 +39,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = "https://dl.k8s.io/release/v" .. version .. "/bin/linux/amd64/kubectl",
-            sha256 = "aa5d4a1a6b43be8e91c63d07768dd2a747adc247090b98b83ca778de220b6205",
+            sha256 = "e23cc7092218c95c22d8ee36fb9499194a36ac5b5349ca476886b7edc0203885",
             resources = {
                 {
                     path = name,
