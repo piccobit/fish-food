@@ -1,7 +1,7 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kind"
-local version = "0.12.0"
-local release = "v0.12.0"
+local version = "0.17.0"
+local release = "v0.17.0"
 local org = "kubernetes-sigs"
 local repo = "kind"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -17,7 +17,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-amd64",
-            sha256 = "969d607a4eb5df20e1ea3841813b7869614235f6b1644c9a27700bff9de5bdfc",
+            sha256 = "a4e9f4cf18ec762934f4acd68752fe085bcded3a736258de0367085525180342",
             resources = {
                 {
                     path = name .. "-darwin-amd64",
@@ -27,10 +27,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-darwin-arm64",
+            sha256 = "b9afee2707e711fb5d39049a361972f8c44ee7ce6145cafd0f7e4b47ceec1409",
+            resources = {
+                {
+                    path = name .. "-darwin-arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-linux-amd64",
-            sha256 = "b80624c14c807490c0944d21fdc9c3455d6cc904fad486fe236f2187ecaa5789",
+            sha256 = "a8c045856db33f839908b6acb90dc8ec397253ffdaef7baf058f5a542e009b9c",
             resources = {
                 {
                     path = name .. "-linux-amd64",
@@ -43,7 +56,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-windows-amd64",
-            sha256 = "5a2afcd22ffa4efa58b26ba84a2cebcc4ccdb3a3607cd94211f8fab4eef83797",
+            sha256 = "f650eb37e82c16021d0da807a44addcc05f5d7ef8a538f7a81e898ceead3f542",
             resources = {
                 {
                     path = name .. "-windows-amd64",
