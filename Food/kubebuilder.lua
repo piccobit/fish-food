@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "kubebuilder"
-local version = "3.3.0"
+local version = "3.8.0"
 local release = "v" .. version
 local org = "kubernetes-sigs"
 local repo = "kubebuilder"
@@ -17,7 +17,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_darwin_amd64",
-            sha256 = "d5c3ed529d8156005ce15de43f6f505abc4beb63e9b0ac9e215edaecb64c2ce3",
+            sha256 = "6ad9e48197afdf6f2352bb8b824f5fe87369df881dcaa0fcb2261fb69add9082",
             resources = {
                 {
                     path = name .. "_darwin_amd64",
@@ -27,10 +27,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_darwin_arm64",
+            sha256 = "f98de66ae5e83a8aebb2d023dac3f886f64c0d73979a0b79a1a002d5aa90208f",
+            resources = {
+                {
+                    path = name .. "_darwin_arm64",
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "_linux_amd64",
-            sha256 = "f9fb1a8e329dfe3be635ccdec3c7d3a6df4092ba13243bfcb89111b12343eb4f",
+            sha256 = "27d22a91e293c916012d60b66e42e72e7f0234fded7cc5c73eb28343cca7a869",
             resources = {
                 {
                     path = name .. "_linux_amd64",
