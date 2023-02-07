@@ -1,6 +1,6 @@
 -- type = google -- DO NOT REMOVE THIS LINE!
 local name = "go"
-local release = "1.19.5"
+local release = "1.20"
 local version = release
 
 food = {
@@ -14,7 +14,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = "https://go.dev/dl/go" .. release .. ".darwin-amd64.tar.gz",
-            sha256 = "23d22bb6571bbd60197bee8aaa10e702f9802786c2e2ddce5c84527e86b66aa0",
+            sha256 = "777025500f62d14bb5a4923072cd97431887961d24de08433a60c2fe1120531d",
             resources = {
                 {
                     path = "go/bin/go",
@@ -32,7 +32,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = "https://go.dev/dl/go" .. release .. ".darwin-arm64.tar.gz",
-            sha256 = "4a67f2bf0601afe2177eb58f825adf83509511d77ab79174db0712dc9efa16c8",
+            sha256 = "32864d6fe888714ca7b421b5997269c7f6349d7e2675c3a399133e521787608b",
             resources = {
                 {
                     path = "go/bin/go",
@@ -50,7 +50,7 @@ food = {
         os = "linux",
         arch = "amd64",
         url = "https://go.dev/dl/go" .. release .. ".linux-amd64.tar.gz",
-        sha256 = "36519702ae2fd573c9869461990ae550c8c0d955cd28d2827a6b159fda81ff95",
+        sha256 = "5a9ebcc65c1cce56e0d2dc616aff4c4cedcfbda8cc6f0288cc08cda3b18dcbf1",
         resources = {
             {
                 path = "go/bin/go",
@@ -68,7 +68,7 @@ food = {
         os = "linux",
         arch = "arm64",
         url = "https://go.dev/dl/go" .. release .. ".linux-arm64.tar.gz",
-        sha256 = "fc0aa29c933cec8d76f5435d859aaf42249aa08c74eb2d154689ae44c08d23b3",
+        sha256 = "17700b6e5108e2a2c3b1a43cd865d3f9c66b7f1c5f0cec26d3672cc131cc0994",
         resources = {
             {
                 path = "go/bin/go",
@@ -86,7 +86,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = "https://go.dev/dl/go" .. release .. ".windows-amd64.zip",
-            sha256 = "167db91a2e40aeb453d3e59d213ecab06f62e1c4a84d13a06ccda1d999961caa",
+            sha256 = "e8f6d8bbcf3df58d2ba29818e13b04c2e42ba2e4d90d580720b21c34d10bbf68",
             resources = {
                 {
                     path = "go\\bin\\go.exe",
@@ -102,7 +102,7 @@ food = {
             os = "windows",
             arch = "arm64",
             url = "https://go.dev/dl/go" .. release .. ".windows-arm64.zip",
-            sha256 = "85a75555e82d8aa6f486d8d29491c593389682acce9f0c270090d5938eee30ef",
+            sha256 = "2421b2ade9b68517f962f0ea4fb27b68b5321b334fb1b353de25be5b2ee90cba",
             resources = {
                 {
                     path = "go\\bin\\go.exe",
