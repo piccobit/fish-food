@@ -1,7 +1,7 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "golangci-lint"
-local version = "1.45.2"
-local release = "v1.45.2"
+local version = "1.55.2"
+local release = "v1.55.2"
 local org = "golangci"
 local repo = "golangci-lint"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin-amd64.tar.gz",
-            sha256 = "995e509e895ca6a64ffc7395ac884d5961bdec98423cb896b17f345a9b4a19cf",
+            sha256 = "632e96e6d5294fbbe7b2c410a49c8fa01c60712a0af85a567de85bcc1623ea21",
             resources = {
                 {
                     path = name .. "-" .. version .. "-darwin-amd64/" .. name,
@@ -26,10 +26,23 @@ food = {
             }
         },
         {
+            os = "darwin",
+            arch = "arm64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-darwin-arm64.tar.gz",
+            sha256 = "234463f059249f82045824afdcdd5db5682d0593052f58f6a3039a0a1c3899f6",
+            resources = {
+                {
+                    path = name .. "-" .. version .. "-darwin-arm64/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux-amd64.tar.gz",
-            sha256 = "595ad6c6dade4c064351bc309f411703e457f8ffbb7a1806b3d8ee713333427f",
+            sha256 = "ca21c961a33be3bc15e4292dc40c98c8dcc5463a7b6768a3afc123761630c09c",
             resources = {
                 {
                     path = name .. "-" .. version .. "-linux-amd64/" .. name,
@@ -42,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows-amd64.zip",
-            sha256 = "1dec0aa46d4f0d241863b573f70129bdf1de9c595cf51172a840a588a4cd9fc5",
+            sha256 = "f57d434d231d43417dfa631587522f8c1991220b43c8ffadb9c7bd279508bf81",
             resources = {
                 {
                     path = name .. "-" .. version .. "-windows-amd64\\" .. name .. ".exe",
