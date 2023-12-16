@@ -52,6 +52,19 @@ food = {
             }
         },
         {
+            os = "linux",
+            arch = "arm64",
+            url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-linux-arm64.tar.gz",
+            sha256 = "8eb0cee9b1dbf0eaa49871798c7f8a5b35f2960c52d776a5f31eb7d886b92746",
+            resources = {
+                {
+                    path = name .. "-" .. version .. "-linux-arm64/" .. name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/" .. release .. "/" .. name .. "-" .. version .. "-windows-amd64.zip",
