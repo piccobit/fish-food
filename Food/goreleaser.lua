@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "goreleaser"
-local version = "1.16.0"
+local version = "1.23.0"
 local org = "goreleaser"
 local repo = "goreleaser"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -16,7 +16,7 @@ food = {
             os = "darwin",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_x86_64.tar.gz",
-            sha256 = "d91b5672acaa0158794e815ae90ddfccf11d0be9eee5c1208b1fd527f2d9da55",
+            sha256 = "14ea4b1790f3d61f5463c786b0520abcbec069220a8f91107416ce78881e42c5",
             resources = {
                 {
                     path = name,
@@ -29,7 +29,7 @@ food = {
             os = "darwin",
             arch = "arm64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Darwin_arm64.tar.gz",
-            sha256 = "d909f5273f1c0af37564fb92866fa26e73b09edae8d618fdea35684ef051d6fc",
+            sha256 = "97097c49b8c7cd8a5fc4deefa40ecb896a2969698ba9be76031c2915ae65cab8",
             resources = {
                 {
                     path = name,
@@ -42,7 +42,7 @@ food = {
             os = "linux",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Linux_x86_64.tar.gz",
-            sha256 = "498193112465ba149b55684d75d40a94649b5ba031021e82d9aa3df420f7c5a6",
+            sha256 = "aff50395d6d6cd2c32f11107ed478046f48389be8ccd978478437d581b9b7ef3",
             resources = {
                 {
                     path = name,
@@ -55,7 +55,7 @@ food = {
             os = "windows",
             arch = "amd64",
             url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_Windows_x86_64.zip",
-            sha256 = "fdfe2dfab28c65f6389e1684d4c3a1ebf695f4be2c15082deb51ec7eb113ecd5",
+            sha256 = "52d24ad9827c77a13bd2becaccd8de10da910310133030de41a3a1896352c23c",
             resources = {
                 {
                     path = name .. ".exe",
