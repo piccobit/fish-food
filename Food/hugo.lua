@@ -1,6 +1,6 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "hugo"
-local version = "0.97.3"
+local version = "0.122.0"
 local org = "gohugoio"
 local repo = "hugo"
 local base_url = "https://github.com/" .. org .. "/" .. repo
@@ -15,8 +15,8 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
-            sha256 = "1ab6fbec3fba1877e64d6d52119fab16d24d56fc45428d387f90f9be20ecbc9d",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-universal.tar.gz",
+            sha256 = "420141d03b13cc3265f29182db79eea4425c459c363d1069c5de9c33adafcbc7",
             resources = {
                 {
                     path = name,
@@ -28,8 +28,8 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-ARM64.tar.gz",
-            sha256 = "4f7b8f0e1f83f4e4de8715046ca0aefe43a3217048a96fafe64020c0cdc01b17",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-universal.tar.gz",
+            sha256 = "420141d03b13cc3265f29182db79eea4425c459c363d1069c5de9c33adafcbc7",
             resources = {
                 {
                     path = name,
@@ -41,8 +41,21 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz",
-            sha256 = "3d3de272b895a95849ec5011a254da2e34148ed6f03bab24e3930c1f5ee52cdf",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux-amd64.tar.gz",
+            sha256 = "356a4948e8be7c538220210f03f6374b5d2379d9ca440182efec534cfd45ca9c",
+            resources = {
+                {
+                    path = name,
+                    installpath = "bin/" .. name,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "arm64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux-arm64.tar.gz",
+            sha256 = "22205d3a7443ded44d39a0ac6562487bed1544dc8598c2d8f6d4c0121e5ebaea",
             resources = {
                 {
                     path = name,
@@ -54,8 +67,20 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
-            sha256 = "a0dfdb7ccbff3d395b9fb3310dc90fd48932d73851dd489435edb54bd8a127f1",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows-amd64.zip",
+            sha256 = "4a571c7af96884fae5773b58e09d2bfce09655073e4a2f6fa07490ec1b7ec27d",
+            resources = {
+                {
+                    path = name .. ".exe",
+                    installpath = "bin\\" .. name .. ".exe"
+                }
+            }
+        },
+        {
+            os = "windows",
+            arch = "arm64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows-arm64.zip",
+            sha256 = "b6e3ce4f1c689cca549e3e1acb971ab78a66e84479e2c728c61981f1425d0443",
             resources = {
                 {
                     path = name .. ".exe",

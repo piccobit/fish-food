@@ -1,12 +1,14 @@
 -- type = github -- DO NOT REMOVE THIS LINE!
 local name = "hugo_extended"
-local version = "0.97.3"
+local binary = "hugo"
+local version = "0.122.0"
 local org = "gohugoio"
 local repo = "hugo"
 local base_url = "https://github.com/" .. org .. "/" .. repo
 
 food = {
     name = name,
+    binary = binary,
     description = "The world’s fastest framework for building websites.",
     license = "Apache-2.0",
     homepage = "https://gohugo.io/",
@@ -15,12 +17,12 @@ food = {
         {
             os = "darwin",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-64bit.tar.gz",
-            sha256 = "50dc3c6fd1f9170230fdefd20bdafa048561d7381bd202271413e4aa77a2b886",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-universal.tar.gz",
+            sha256 = "698f67460c060b656b1522e828475ac2d20901588e19efbb29450dd37651044d",
             resources = {
                 {
-                    path = "hugo",
-                    installpath = "bin/hugo",
+                    path = binary,
+                    installpath = "bin/" .. binary,
                     executable = true
                 }
             }
@@ -28,12 +30,12 @@ food = {
         {
             os = "darwin",
             arch = "arm64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_macOS-ARM64.tar.gz",
-            sha256 = "59fd3322b79bc17830b750ea7ba974317a93cf874f3d327fd5df372dd2897c96",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_darwin-universal.tar.gz",
+            sha256 = "698f67460c060b656b1522e828475ac2d20901588e19efbb29450dd37651044d",
             resources = {
                 {
-                    path = "hugo",
-                    installpath = "bin/hugo",
+                    path = binary,
+                    installpath = "bin/" .. binary,
                     executable = true
                 }
             }
@@ -41,12 +43,25 @@ food = {
         {
             os = "linux",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Linux-64bit.tar.gz",
-            sha256 = "104ffb5c3130cd3d25e331566d9b86e153cbbdad761defe5defa027bb23543b6",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux-amd64.tar.gz",
+            sha256 = "6c9ba859a170af8bbfb8197f33499d0bd07bf7076436d1ac9775f9f49d434e10",
             resources = {
                 {
-                    path = "hugo",
-                    installpath = "bin/hugo",
+                    path = binary,
+                    installpath = "bin/" .. binary,
+                    executable = true
+                }
+            }
+        },
+        {
+            os = "linux",
+            arch = "arm64",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_linux-arm64.tar.gz",
+            sha256 = "dc1edaed25c226bbc9af61a4d3eb45a4a07bbb9a44c3726c03c8ac1e0ee3091a",
+            resources = {
+                {
+                    path = binary,
+                    installpath = "bin/" .. binary,
                     executable = true
                 }
             }
@@ -54,12 +69,12 @@ food = {
         {
             os = "windows",
             arch = "amd64",
-            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_Windows-64bit.zip",
-            sha256 = "184c4302865d0ef4e1a81f2d7dc778cbc26334d2e6024362e2cb8177a7ff25a2",
+            url = base_url .. "/releases/download/v" .. version .. "/" .. name .. "_" .. version .. "_windows-amd64.zip",
+            sha256 = "3634b50d3c700b3092f755a4c09c7980a4b0ffeffda02e0c6867ba9340a03e58",
             resources = {
                 {
-                    path = "hugo.exe",
-                    installpath = "bin\\hugo.exe"
+                    path = binary .. ".exe",
+                    installpath = "bin\\" .. binary .. ".exe"
                 }
             }
         }
